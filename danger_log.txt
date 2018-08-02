@@ -1,0 +1,34 @@
+hw2_proxy
+
+Jichun Shen  Zhimin Chang
+
+We have implemented the basic functionalities of a proxy server, which is able to act as an intermediate between the client (browser) and server. While since the http protocol contains many aspects and details, there exists some drawbacks and risks in our program. These potential vulnerability may lead to some unexpected consequences. 
+
+Follows are the possible risks we have considered.
+
+1. Request & Response Parse
+In the parse part, we simply find the corresponding header field and fetch its value, then store the value in the objects. But chances are that the value is illegal and can cause some issues. 
+
+2. Max Size of the Vector
+In our program, we use the vector<char> to store the received requests or responses and forward them between client and server. We assume that the vector is large enough to store the whole message. But the input may be huge and cause buffer overflow, which will cause serious consequences. 
+
+3. System Calls
+Some evil users may modify the request to contain some system calls which might make our proxy program broken down. Just like the SQL injection in the first homework, which will give rise to some disastrous result. 
+
+4. Cache
+The cache should be kept excluded from the outside world. Since cache stores the responses for some resources the users have requested before. And the proxy will return the content in cache if it is in a valid state. If the evil users invade the proxy and change the content, then the consequence will be unimaginable.
+
+5. Program & Log File
+Right now we did not consider the authentication of the program source files and the log file. The repository that the program resides is writeable by default. If there's a bug in the code which let the evil user gain access to the server and run some code as root, then something bad will happen.
+
+6. Memory Leak
+Since in real life, the proxy will run forever, so even small memory leak will cause big problem. We have try to avoid manual memory allocation in our program but it is still possible that some operation or some situation we haven't considered will cause memory leak.
+
+7. Guarantee
+Since we program based on C++11, we try to avoid using new memory. Therefore, most of our function are strong guarantee. The only function which will have new operation is in cache class, but it is also strong guarantee, if it throw an exception, nothing bad will happened. We have handled most exception properly.
+
+8. Invalid request due to limited bandwidth
+When we read the GET request from client, we used only one recv which maximum recv bytes is 8192. After I test our proxy with a huge number of websites, most times it handled very smoothly and fast. However, I do find that some particular website sometimes it will load in a little strange way. I use netcat to analyze the request and response, and find that sometimes the request we received haven't finished, it is not a complete request. In this case, something would go wrong, our solution is to verify the request and if it is invalid we will end this thread and spawn another thread for client to request again. That's very strange. Ninety nine percent website will not cause this problem. I think it is cause by the limited bandwidth.
+
+
+

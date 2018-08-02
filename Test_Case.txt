@@ -1,0 +1,280 @@
+Test Case for our proxy:
+
+1. Test GET method:
+
+Input:  http://people.duke.edu/~bmr23/ece650/class.html
+
+You can see the browser go to ECE650 webpage which is correct. 
+
+Loading this website will generate several request for jpg and png pictures, and our proxy can handle it successfully. 
+
+The request from the browser include 'Connection: keep-alive', but the response send by server include 'Connection: close'. Therefore, these requests are handled one by one through several connections with server, which is correct, because only when client and server send 'Connection: keep-alive' will our proxy maintain a tunnel for them to communicate.
+
+Then, you can click on every hyperlink, for example, the slide for lecture 1, called 'Introduction'. You can see the pdf appear in the website, which is correct. Because our proxy can handle GET request which ask for a huge bytes of data.
+
+And in our log file, it shows: 
+*********************************
+897: GET http://people.duke.edu/~bmr23/ece650/class.html HTTP/1.1 from 24.163.83.159 @ Thu Mar  1 19:12:35 2018
+897: not in cache
+897: Requesting GET http://people.duke.edu/~bmr23/ece650/class.html HTTP/1.1 from people.duke.edu
+897: Received HTTP/1.1 200 OK from people.duke.edu
+897: NOTE empty 'cache-control', consider to be noncacheable
+897: Responding HTTP/1.1 200 OK
+*********************************
+
+2. Test CONNECT method:
+
+Input:  https://www.google.com/
+
+You can see the browser go to Google webpage which is correct, because https will generate a CONNECT request, and our proxy can hanld this request properly.
+
+You can also type in google in the search bar to go to the google webpage.
+
+Then, input youtube in the google's search bar.
+
+You can see it appear the result of searching youtube.
+
+Click the first result to enter youtube website.
+
+You can watch video by our proxy, which is correct because all these request are CONNECT request.
+
+And in our log file, it shows: ......
+************************************
+108: Requesting CONNECT www.google.com:443 HTTP/1.1 from www.google.com
+109: CONNECT www.google.com:443 HTTP/1.1 from 24.163.83.159 @ Thu Mar  1 21:54:22 2018
+---------------------
+113: CONNECT id.google.com:443 HTTP/1.1 from 10.197.124.115 @ Fri Mar  2 10:07:44 2018
+113: Requesting CONNECT id.google.com:443 HTTP/1.1 from id.google.com
+---------------------
+115: CONNECT www.gstatic.com:443 HTTP/1.1 from 10.197.124.115 @ Fri Mar  2 10:07:45 2018
+115: Requesting CONNECT www.gstatic.com:443 HTTP/1.1 from www.gstatic.com
+---------------------
+117: CONNECT www.googleadservices.com:443 HTTP/1.1 from 10.197.124.115 @ Fri Mar  2 10:07:47 2018
+117: Requesting CONNECT www.googleadservices.com:443 HTTP/1.1 from www.googleadservices.com
+---------------------
+127: CONNECT accounts.google.com:443 HTTP/1.1 from 10.197.124.115 @ Fri Mar  2 10:07:50 2018
+127: Requesting CONNECT accounts.google.com:443 HTTP/1.1 from accounts.google.com
+---------------------
+129: CONNECT www.youtube.com:443 HTTP/1.1 from 10.197.124.115 @ Fri Mar  2 10:07:52 2018
+129: Requesting CONNECT www.youtube.com:443 HTTP/1.1 from www.youtube.com
+************************************
+
+3. Test POST method:
+
+Input: http://www.csm-testcenter.org/test?do=show&subdo=common&test=file_upload
+
+Choose a file up to 2MB (required by this website), and click on upload.
+
+You can see the file you chose has been upload successfully, which is correct. Because this will generate a POST request and our proxy can handle it properly.
+**************************************
+100: GET http://www.csm-testcenter.org/test?do=show&subdo=common&test=file_upload HTTP/1.1 from 10.197.124.115 @ Fri Mar  2 10:26:08 2018
+100: not in cache
+100: Requesting GET http://www.csm-testcenter.org/test?do=show&subdo=common&test=file_upload HTTP/1.1 from www.csm-testcenter.org
+100: Received HTTP/1.1 200 OK from www.csm-testcenter.org
+100: NOTE empty 'cache-control', consider to be noncacheable
+100: Responding HTTP/1.1 200 OK
+--------------------------
+107: POST http://www.csm-testcenter.org/test HTTP/1.1 from 10.197.124.115 @ Fri Mar  2 10:26:14 2018
+107: Requesting POST http://www.csm-testcenter.org/test HTTP/1.1 from www.csm-testcenter.org
+107: Received HTTP/1.1 200 OK from www.csm-testcenter.org
+107: Responding HTTP/1.1 200 OK
+**************************************
+
+4. Test multithread:
+
+Input: https://www.youtube.com/
+
+Then input: https://www.amazon.com/
+
+You can see that each page loading simultaneously, which is correct. Because they both generate some requests and they have been handled simultaneously by our proxy. 
+**************************************
+101: GET http://amazon.com/ HTTP/1.1 from 10.197.124.115 @ Fri Mar  2 09:55:12 2018
+101: not in cache
+101: Requesting GET http://amazon.com/ HTTP/1.1 from amazon.com
+101: Received HTTP/1.1 301 Moved Permanently from amazon.com
+101: Responding HTTP/1.1 301 Moved Permanently
+102: CONNECT amazon.com:443 HTTP/1.1 from 10.197.124.115 @ Fri Mar  2 09:55:12 2018
+102: Requesting CONNECT amazon.com:443 HTTP/1.1 from amazon.com
+----------------------
+119: CONNECT youtube.com:443 HTTP/1.1 from 10.197.124.115 @ Fri Mar  2 09:55:18 2018
+119: Requesting CONNECT youtube.com:443 HTTP/1.1 from youtube.com
+121: CONNECT www.youtube.com:443 HTTP/1.1 from 10.197.124.115 @ Fri Mar  2 09:55:21 2018
+121: Requesting CONNECT www.youtube.com:443 HTTP/1.1 from www.youtube.com
+***************************************
+
+5. Test chunk encoding website:
+
+Input: http://man7.org/linux/man-pages/
+
+You can see that the linux website has been loaded successfully, which is correct. Because the response for this request is chunk encoding tranfer, and our proxy can handle it properly.
+*************************************
+102: GET http://man7.org/linux/man-pages/ HTTP/1.1 from 10.197.124.115 @ Fri Mar  2 09:53:24 2018
+102: not in cache
+102: Requesting GET http://man7.org/linux/man-pages/ HTTP/1.1 from man7.org
+102: Received HTTP/1.1 200 OK from man7.org
+102: NOTE empty 'cache-control', consider to be noncacheable
+102: Responding HTTP/1.1 200 OK
+*************************************
+
+Test website which has no must-revalidate, max-age and expiration date.
+
+6. Input: http://cdn.optimizely.com/js/310987714.js
+
+Test must-revalidate:
+
+This website has must-revalidate field in the Cache-Control header. It will be cached when it is accessed the first time. Then when we visit this site second time, the Etag will be sent to the server. If the resource is not modified by then, 304 will be returned to the proxy and it can just deliver the cached content to the client. 
+******************************
+137: GET http://cdn.optimizely.com/js/310987714.js HTTP/1.1 from 24.163.83.159 @ Thu Mar  1 19:03:31 2018
+137: not in cache
+137: Requesting GET http://cdn.optimizely.com/js/310987714.js HTTP/1.1 from cdn.optimizely.com
+137: Received HTTP/1.1 200 OK from cdn.unid.go.com
+137: cached, but requires re-validation
+137: NOTE Cache-Control: public, must-revalidate, max-age=10384
+137: NOTE Etag: "97eb2f391887a79b10304b3682065a77"
+137: Responding HTTP/1.1 200 OK
+----------------------------------
+160: GET http://cdn.optimizely.com/js/310987714.js HTTP/1.1 from 24.163.83.159 @ Thu Mar  1 19:04:44 2018
+160: Requesting GET http://cdn.optimizely.com/js/310987714.js HTTP/1.1 from cdn.optimizely.com
+169: in cache, requires validation
+160: Received HTTP/1.1 304 Not Modified from cdn.optimizely.com
+160: Responding HTTP/1.1 304 Not Modified
+******************************
+
+
+7. Input: http://abcnews.go.com/
+
+Visit this website, you can see after 300 seconds you need to ask for server to get the response, which is correct. Because this website has connection: Cache-Control: max-age=300.
+********************************************
+168: GET http://abcnews.go.com/ HTTP/1.1 from 24.163.83.159 @ Fri Mar  2 00:16:50 2018
+168: not in cache
+168: Requesting GET http://abcnews.go.com/ HTTP/1.1 from abcnews.go.com
+168: Received HTTP/1.1 200 OK from abcnews.go.com
+168: NOTE Cache-Control: max-age=300
+168: Responding HTTP/1.1 200 OK
+********************************************
+
+8. http://www.espn.com/
+
+This website has must-revalidate and max-age in the Cache-Control header, however, it does not have a Etag header, so we will only consider the max-age property. Since the value of this key is 0, we need actually to send the request to the origin server each time although it is stored in the cache. 
+
+************************************
+232: GET http://www.espn.com/ HTTP/1.1 from 24.163.83.159 @ Thu Mar  1 23:13:20 2018
+232: not in cache
+232: Requesting GET http://www.espn.com/ HTTP/1.1 from www.espn.com
+232: Received HTTP/1.1 200 OK from www.espn.com
+232: cached, but requires re-validation
+232: NOTE Cache-Control: max-age=0, must-revalidate
+232: Responding HTTP/1.1 200 OK
+************************************
+
+
+
+9. Input: http://www.bbc.com/
+
+This website has Cache-Control: private, max-age=60 & Expires & Etag. In this case, since it does not have must-revalidate field in the cache-control header, we will only consider the max-age as the criteria to check if the cache has been stale. 
+***************************************
+116: GET http://www.bbc.com/ HTTP/1.1 from 24.163.83.159 @ Thu Mar  1 23:11:34 2018
+116: not in cache
+116: Requesting GET http://www.bbc.com/ HTTP/1.1 from www.bbc.com
+116: Received HTTP/1.1 200 OK from www.bbc.com
+116: cached, expires at Fri, 02 Mar 2018 04:09:16 GMT
+116: NOTE Cache-Control: private, max-age=60
+116: NOTE Etag: "51a60b270ec84e5fcccf1e4022aa5ba1"
+116: Responding HTTP/1.1 200 OK
+**************************************
+
+10. Input: http://www.latimes.com/
+
+This website has Cache-Control: max-age=2592000 & Expires: Sun, 01 Apr 2018 04:39:39 GMT. In this case, we will treat max-age as the one with highest priority. So with in the specified time span, it will be fresh and can be returned from the cache directly.
+*******************************************
+276: GET http://www.latimes.com/ HTTP/1.1 from 24.163.83.159 @ Thu Mar  1 23:34:44 2018
+276: not in cache
+276: Responding HTTP/1.1 200 OK
+276: Received HTTP/1.1 200 OK from www.latimes.com
+276: cached, expires at Sun, 01 Apr 2018 04:39:39 GMT
+276: NOTE Cache-Control: max-age=2592000
+276: Responding HTTP/1.1 200 OK
+*******************************************
+
+11. Input http://man7.org/tlpi/respect_for_paper_300px.png
+
+Since the request of this website has no cache-control field, according to RFC, we did not cache this GET request. And the corresponding log shows as follows: 
+***************************
+263: GET http://man7.org/tlpi/respect_for_paper_300px.png HTTP/1.1 from 24.163.83.159 @ Thu Mar  1 23:30:36 2018
+263: not in cache
+263: Requesting GET http://man7.org/tlpi/respect_for_paper_300px.png HTTP/1.1 from man7.org
+263: Received HTTP/1.1 200 OK from man7.org
+263: NOTE empty 'cache-control', consider to be noncacheable
+263: Responding HTTP/1.1 200 OK
+***************************
+
+12. Malformed Request
+
+We first use netcat to get a legitimate request:
+*************************
+GET http://people.duke.edu/~tkb13/courses/ece650/slides/01-intro.pdf HTTP/1.1
+Host: people.duke.edu
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 F\
+irefox/58.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cookie: _ga=GA1.2.823879287.1514325119; _gid=GA1.2.1872188016.1519952491; _ga=G\
+A1.2.823879287.1514325119; _gid=GA1.2.1872188016.1519952491
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Range: bytes=0-65535
+**************************
+
+Then, we modify the url to make it illegal:
+
+****************************************
+GET http://people.duke.edu/~tkb13/course/ece650/slides/01-intro.pdf HTTP/1.1
+Host: people.duke.edu
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 F\
+irefox/58.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cookie: _ga=GA1.2.823879287.1514325119; _gid=GA1.2.1872188016.1519952491; _ga=G\
+A1.2.823879287.1514325119; _gid=GA1.2.1872188016.1519952491
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Range: bytes=0-65535
+****************************************
+
+Finally, we can see the response is 404 Not Found, which is what expected.
+
+--------------------------------------
+HTTP/1.1 404 Not Found^M
+Date: Fri, 02 Mar 2018 16:25:49 GMT^M
+Server: Apache^M
+Content-Length: 238^M
+Connection: close^M
+Content-Type: text/html; charset=iso-8859-1^M
+^M
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>404 Not Found</title>
+</head><body>
+<h1>Not Found</h1>
+<p>The requested URL /~tkb13/course/ece650/slides/01-intro.pdf was not found on\
+ this server.</p>
+</body></html>
+-----------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

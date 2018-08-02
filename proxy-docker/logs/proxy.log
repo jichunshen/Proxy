@@ -1,0 +1,1390 @@
+100: GET http://detectportal.firefox.com/success.txt HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 01:41:47 2018
+
+100: not in cache
+100: Requesting GET http://detectportal.firefox.com/success.txt HTTP/1.1 from detectportal.firefox.com
+100: Received HTTP/1.1 200 OK from detectportal.firefox.com
+100: not cacheable because no-store
+100: cached, but requires re-validation
+100: NOTE Cache-Control: no-cache, no-store, must-revalidate
+100: Responding HTTP/1.1 200 OK
+101: GET http://people.duke.edu/~bmr23/ece650/class.html HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 01:41:49 2018
+
+101: not in cache
+101: Requesting GET http://people.duke.edu/~bmr23/ece650/class.html HTTP/1.1 from people.duke.edu
+101: Received HTTP/1.1 304 Not Modified from people.duke.edu
+101: Responding HTTP/1.1 304 Not Modified
+102: GET http://people.duke.edu/~tkb13/courses/ece650/ HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 01:41:53 2018
+
+102: not in cache
+102: Requesting GET http://people.duke.edu/~tkb13/courses/ece650/ HTTP/1.1 from people.duke.edu
+102: Received HTTP/1.1 304 Not Modified from people.duke.edu
+102: Responding HTTP/1.1 304 Not Modified
+103: GET http://people.duke.edu/~tkb13/courses/ece650/slides/03-ipc.pdf HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 01:41:56 2018
+
+103: not in cache
+103: Requesting GET http://people.duke.edu/~tkb13/courses/ece650/slides/03-ipc.pdf HTTP/1.1 from people.duke.edu
+103: Received HTTP/1.1 206 Partial Content from people.duke.edu
+103: Responding HTTP/1.1 206 Partial Content
+100: CONNECT tiles.services.mozilla.com:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:38 2018
+
+100: Requesting CONNECT tiles.services.mozilla.com:443 HTTP/1.1 from tiles.services.mozilla.com
+102: CONNECT snippets.cdn.mozilla.net:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:38 2018
+
+102: Requesting CONNECT snippets.cdn.mozilla.net:443 HTTP/1.1 from snippets.cdn.mozilla.net
+103: CONNECT snippets.cdn.mozilla.net:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:38 2018
+
+103: Requesting CONNECT snippets.cdn.mozilla.net:443 HTTP/1.1 from snippets.cdn.mozilla.net
+105: CONNECT location.services.mozilla.com:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:38 2018
+
+105: Requesting CONNECT location.services.mozilla.com:443 HTTP/1.1 from location.services.mozilla.com
+104: CONNECT location.services.mozilla.com:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:38 2018
+
+104: Requesting CONNECT location.services.mozilla.com:443 HTTP/1.1 from location.services.mozilla.com
+106: POST http://ocsp.digicert.com/ HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:39 2018
+
+106: Requesting POST http://ocsp.digicert.com/ HTTP/1.1 from ocsp.digicert.com
+107: POST http://ocsp.digicert.com/ HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:39 2018
+
+107: Requesting POST http://ocsp.digicert.com/ HTTP/1.1 from ocsp.digicert.com
+106: Received HTTP/1.1 200 OK from ocsp.digicert.com
+106: NOTE Etag: "5a99b1fa-1d7"
+106: Responding HTTP/1.1 200 OK
+107: Received HTTP/1.1 200 OK from ocsp.digicert.com
+107: NOTE Etag: "5a99b1fa-1d7"
+107: Responding HTTP/1.1 200 OK
+108: GET http://people.duke.edu/~tkb13/courses/ece650/resources/awesome.txt HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:43 2018
+
+108: not in cache
+108: Requesting GET http://people.duke.edu/~tkb13/courses/ece650/resources/awesome.txt HTTP/1.1 from people.duke.edu
+108: Received HTTP/1.1 200 OK from people.duke.edu
+108: NOTE empty 'cache-control', consider to be noncacheable
+108: Responding HTTP/1.1 200 OK
+110: GET http://www.espn.com/ HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:49 2018
+
+110: not in cache
+110: Requesting GET http://www.espn.com/ HTTP/1.1 from www.espn.com
+110: Received HTTP/1.1 200 OK from www.espn.com
+110: cached, but requires re-validation
+110: NOTE Cache-Control: max-age=0, must-revalidate
+110: Responding HTTP/1.1 200 OK
+112: GET http://a.espncdn.com/redesign/fonts/base64-benton-woff.css HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:49 2018
+
+112: not in cache
+112: Requesting GET http://a.espncdn.com/redesign/fonts/base64-benton-woff.css HTTP/1.1 from a.espncdn.com
+111: GET http://cdn.espn.com/core/format/modules/head/i18n?edition-host=espn.com&lang=en&region=us&site=espn&site-type=full&type=ext&build=0.389.10.1&edition-view=espn-en-us&edition=espn-en-us HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:49 2018
+
+111: not in cache
+111: Requesting GET http://cdn.espn.com/core/format/modules/head/i18n?edition-host=espn.com&lang=en&region=us&site=espn&site-type=full&type=ext&build=0.389.10.1&edition-view=espn-en-us&edition=espn-en-us HTTP/1.1 from cdn.espn.com
+113: GET http://a.espncdn.com/redesign/0.389.10/css/shell-desktop.css HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:49 2018
+
+113: not in cache
+113: Requesting GET http://a.espncdn.com/redesign/0.389.10/css/shell-desktop.css HTTP/1.1 from a.espncdn.com
+116: GET http://a.espncdn.com/redesign/0.389.10/css/one-feed-v1.css HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:49 2018
+
+116: not in cache
+116: Requesting GET http://a.espncdn.com/redesign/0.389.10/css/one-feed-v1.css HTTP/1.1 from a.espncdn.com
+114: GET http://a.espncdn.com/redesign/0.389.10/css/page.css HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:49 2018
+
+114: not in cache
+114: Requesting GET http://a.espncdn.com/redesign/0.389.10/css/page.css HTTP/1.1 from a.espncdn.com
+115: GET http://a.espncdn.com/redesign/0.389.10/js/espn-head.js HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:49 2018
+
+115: not in cache
+115: Requesting GET http://a.espncdn.com/redesign/0.389.10/js/espn-head.js HTTP/1.1 from a.espncdn.com
+117: GET http://cdn.optimizely.com/js/310987714.js HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:49 2018
+
+117: not in cache
+117: Requesting GET http://cdn.optimizely.com/js/310987714.js HTTP/1.1 from cdn.optimizely.com
+118: GET http://a.espncdn.com/redesign/0.389.10/node_modules/espn-lazysizes/lazysizes.js HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:49 2018
+
+118: not in cache
+118: Requesting GET http://a.espncdn.com/redesign/0.389.10/node_modules/espn-lazysizes/lazysizes.js HTTP/1.1 from a.espncdn.com
+111: Received HTTP/1.1 200 OK from cdn.espn.com
+111: cached, but requires re-validation
+111: NOTE Cache-Control: must-revalidate, max-age=405153
+118: Received HTTP/1.1 200 OK from a.espncdn.com
+118: NOTE Cache-Control: max-age=4984409
+111: Responding HTTP/1.1 200 OK
+118: Responding HTTP/1.1 200 OK
+119: GET http://a.espncdn.com/redesign/0.389.10/js/espn-critical.js HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:49 2018
+
+119: not in cache
+119: Requesting GET http://a.espncdn.com/redesign/0.389.10/js/espn-critical.js HTTP/1.1 from a.espncdn.com
+115: Received HTTP/1.1 200 OK from a.espncdn.com
+115: NOTE Cache-Control: max-age=4984397
+115: Responding HTTP/1.1 200 OK
+116: Received HTTP/1.1 200 OK from a.espncdn.com
+116: NOTE Cache-Control: max-age=4984397
+116: Responding HTTP/1.1 200 OK
+113: Received HTTP/1.1 200 OK from a.espncdn.com
+113: NOTE Cache-Control: max-age=4984429
+113: Responding HTTP/1.1 200 OK
+112: Received HTTP/1.1 200 OK from a.espncdn.com
+112: NOTE Cache-Control: max-age=5145111
+114: Received HTTP/1.1 200 OK from a.espncdn.com
+114: NOTE Cache-Control: max-age=4983740
+114: Responding HTTP/1.1 200 OK
+119: Received HTTP/1.1 200 OK from a.espncdn.com
+119: NOTE Cache-Control: max-age=4983734
+117: Received HTTP/1.1 200 OK from cdn.optimizely.com
+117: NOTE Cache-Control: max-age=120
+112: Responding HTTP/1.1 200 OK
+117: Responding HTTP/1.1 200 OK
+119: Responding HTTP/1.1 200 OK
+120: GET http://a4.espncdn.com/combiner/i?img=%2Fi%2Ffantasy%2Fchampweek.png&w=60&h=60&scale=crop&cquality=80&location=origin HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:50 2018
+
+120: not in cache
+120: Requesting GET http://a4.espncdn.com/combiner/i?img=%2Fi%2Ffantasy%2Fchampweek.png&w=60&h=60&scale=crop&cquality=80&location=origin HTTP/1.1 from a4.espncdn.com
+121: GET http://a1.espncdn.com/combiner/i?img=%2Fredesign%2Fassets%2Fimg%2Ficons%2FESPN%2Dicon%2Dmma.png&w=80&h=80&scale=crop&cquality=40&location=origin HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:50 2018
+
+121: not in cache
+121: Requesting GET http://a1.espncdn.com/combiner/i?img=%2Fredesign%2Fassets%2Fimg%2Ficons%2FESPN%2Dicon%2Dmma.png&w=80&h=80&scale=crop&cquality=40&location=origin HTTP/1.1 from a1.espncdn.com
+124: GET http://a3.espncdn.com/combiner/i?img=%2Fredesign%2Fassets%2Fimg%2Ficons%2FESPN%2Dicon%2Dfootball%2Dcollege.png&w=80&h=80&scale=crop&cquality=40&location=origin HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:50 2018
+
+124: not in cache
+125: GET http://a4.espncdn.com/combiner/i?img=%2Fi%2Fespn%2Fmisc_logos%2F500%2Fnba.png&w=60&h=60&scale=crop&cquality=80&location=origin HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:50 2018
+
+125: not in cache
+125: Requesting GET http://a4.espncdn.com/combiner/i?img=%2Fi%2Fespn%2Fmisc_logos%2F500%2Fnba.png&w=60&h=60&scale=crop&cquality=80&location=origin HTTP/1.1 from a4.espncdn.com
+124: Requesting GET http://a3.espncdn.com/combiner/i?img=%2Fredesign%2Fassets%2Fimg%2Ficons%2FESPN%2Dicon%2Dfootball%2Dcollege.png&w=80&h=80&scale=crop&cquality=40&location=origin HTTP/1.1 from a3.espncdn.com
+123: GET http://a3.espncdn.com/combiner/i?img=%2Fi%2Ffantasy%2Fflb.png&w=60&h=60&scale=crop&cquality=80&location=origin HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:50 2018
+
+123: not in cache
+123: Requesting GET http://a3.espncdn.com/combiner/i?img=%2Fi%2Ffantasy%2Fflb.png&w=60&h=60&scale=crop&cquality=80&location=origin HTTP/1.1 from a3.espncdn.com
+122: GET http://a4.espncdn.com/combiner/i?img=%2Fi%2Fespn%2Fmisc_logos%2F500%2Fnfl.png&w=60&h=60&scale=crop&cquality=80&location=origin HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:50 2018
+
+122: not in cache
+122: Requesting GET http://a4.espncdn.com/combiner/i?img=%2Fi%2Fespn%2Fmisc_logos%2F500%2Fnfl.png&w=60&h=60&scale=crop&cquality=80&location=origin HTTP/1.1 from a4.espncdn.com
+120: Received HTTP/1.1 200 OK from a4.espncdn.com
+120: cached, expires at Fri, 27 Apr 2018 04:11:16 GMT
+120: NOTE Cache-Control: max-age=4758446
+126: GET http://a2.espncdn.com/combiner/i?img=%2Fi%2Fteamlogos%2Fleagues%2F500%2Fnhl.png&w=60&h=60&scale=crop&cquality=80&location=origin HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:50 2018
+
+126: not in cache
+126: Requesting GET http://a2.espncdn.com/combiner/i?img=%2Fi%2Fteamlogos%2Fleagues%2F500%2Fnhl.png&w=60&h=60&scale=crop&cquality=80&location=origin HTTP/1.1 from a2.espncdn.com
+120: Responding HTTP/1.1 200 OK
+129: GET http://a4.espncdn.com/combiner/i?img=%2Fredesign%2Fassets%2Fimg%2Flogos%2Flogo%2D538%2D24x31.png&w=60&h=60&scale=crop&cquality=80&location=origin HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:50 2018
+
+129: not in cache
+129: Requesting GET http://a4.espncdn.com/combiner/i?img=%2Fredesign%2Fassets%2Fimg%2Flogos%2Flogo%2D538%2D24x31.png&w=60&h=60&scale=crop&cquality=80&location=origin HTTP/1.1 from a4.espncdn.com
+128: GET http://a1.espncdn.com/combiner/i?img=%2Fredesign%2Fassets%2Fimg%2Ficons%2FESPN%2Dicon%2Dbasketball.png&w=80&h=80&scale=crop&cquality=40&location=origin HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:50 2018
+
+128: not in cache
+128: Requesting GET http://a1.espncdn.com/combiner/i?img=%2Fredesign%2Fassets%2Fimg%2Ficons%2FESPN%2Dicon%2Dbasketball.png&w=80&h=80&scale=crop&cquality=40&location=origin HTTP/1.1 from a1.espncdn.com
+127: GET http://a1.espncdn.com/combiner/i?img=%2Fi%2Ffantasy%2Fbracketology.png&w=60&h=60&scale=crop&cquality=80&location=origin HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:50 2018
+
+127: not in cache
+127: Requesting GET http://a1.espncdn.com/combiner/i?img=%2Fi%2Ffantasy%2Fbracketology.png&w=60&h=60&scale=crop&cquality=80&location=origin HTTP/1.1 from a1.espncdn.com
+130: GET http://a.espncdn.com/combiner/i?img=%2Fi%2Fespn%2Fnetworks_shows%2F500%2Fundefeated.png&w=60&h=60&scale=crop&cquality=80&location=origin HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:50 2018
+
+130: not in cache
+130: Requesting GET http://a.espncdn.com/combiner/i?img=%2Fi%2Fespn%2Fnetworks_shows%2F500%2Fundefeated.png&w=60&h=60&scale=crop&cquality=80&location=origin HTTP/1.1 from a.espncdn.com
+122: Received HTTP/1.1 200 OK from a4.espncdn.com
+122: cached, expires at Fri, 16 Mar 2018 02:04:46 GMT
+122: NOTE Cache-Control: max-age=1122056
+122: Responding HTTP/1.1 200 OK
+129: Received HTTP/1.1 200 OK from a4.espncdn.com
+129: cached, expires at Fri, 23 Mar 2018 00:05:48 GMT
+129: NOTE Cache-Control: max-age=1719718
+123: Received HTTP/1.1 200 OK from a3.espncdn.com
+123: cached, expires at Sat, 07 Apr 2018 04:43:25 GMT
+123: NOTE Cache-Control: max-age=3032375
+123: Responding HTTP/1.1 200 OK
+129: Responding HTTP/1.1 200 OK
+124: Received HTTP/1.1 200 OK from a3.espncdn.com
+124: cached, expires at Tue, 27 Mar 2018 05:17:41 GMT
+124: NOTE Cache-Control: max-age=2084031
+124: Responding HTTP/1.1 200 OK
+125: Received HTTP/1.1 200 OK from a4.espncdn.com
+125: cached, expires at Sat, 17 Mar 2018 01:27:30 GMT
+125: NOTE Cache-Control: max-age=1206220
+125: Responding HTTP/1.1 200 OK
+126: Received HTTP/1.1 200 OK from a2.espncdn.com
+126: cached, expires at Tue, 20 Mar 2018 00:01:06 GMT
+126: NOTE Cache-Control: max-age=1460236
+126: Responding HTTP/1.1 200 OK
+121: Received HTTP/1.1 200 OK from a1.espncdn.com
+121: cached, expires at Sun, 01 Apr 2018 12:46:03 GMT
+121: NOTE Cache-Control: max-age=2542933
+121: Responding HTTP/1.1 200 OK
+128: Received HTTP/1.1 200 OK from a1.espncdn.com
+128: cached, expires at Tue, 27 Mar 2018 21:13:07 GMT
+128: NOTE Cache-Control: max-age=2141357
+128: Responding HTTP/1.1 200 OK
+127: Received HTTP/1.1 200 OK from a1.espncdn.com
+127: cached, expires at Sun, 25 Mar 2018 23:39:51 GMT
+127: NOTE Cache-Control: max-age=1977361
+127: Responding HTTP/1.1 200 OK
+130: Received HTTP/1.1 200 OK from a.espncdn.com
+130: cached, expires at Fri, 13 Apr 2018 02:41:56 GMT
+130: NOTE Cache-Control: max-age=3543486
+130: Responding HTTP/1.1 200 OK
+131: GET http://a3.espncdn.com/combiner/i?img=%2Fi%2Fespn%2Fnetworks_shows%2F500%2Fdoubletruck.png&w=60&h=60&scale=crop&cquality=80&location=origin HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:50 2018
+
+131: not in cache
+131: Requesting GET http://a3.espncdn.com/combiner/i?img=%2Fi%2Fespn%2Fnetworks_shows%2F500%2Fdoubletruck.png&w=60&h=60&scale=crop&cquality=80&location=origin HTTP/1.1 from a3.espncdn.com
+132: GET http://a2.espncdn.com/combiner/i?img=%2Fi%2Fespn%2Fnetworks_shows%2F500%2Fespnw.png&w=60&h=60&scale=crop&cquality=80&location=origin HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:50 2018
+
+132: not in cache
+132: Requesting GET http://a2.espncdn.com/combiner/i?img=%2Fi%2Fespn%2Fnetworks_shows%2F500%2Fespnw.png&w=60&h=60&scale=crop&cquality=80&location=origin HTTP/1.1 from a2.espncdn.com
+131: Received HTTP/1.1 200 OK from a3.espncdn.com
+131: cached, expires at Thu, 22 Mar 2018 07:26:50 GMT
+131: NOTE Cache-Control: max-age=1659780
+131: Responding HTTP/1.1 200 OK
+134: GET http://a.espncdn.com/combiner/i?img=%2Fi%2Fespn%2Fnetworks_shows%2F500%2Fxgames.png&w=60&h=60&scale=crop&cquality=80&location=origin HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:50 2018
+
+134: not in cache
+134: Requesting GET http://a.espncdn.com/combiner/i?img=%2Fi%2Fespn%2Fnetworks_shows%2F500%2Fxgames.png&w=60&h=60&scale=crop&cquality=80&location=origin HTTP/1.1 from a.espncdn.com
+133: GET http://a4.espncdn.com/combiner/i?img=%2Fi%2Fespn%2Fnetworks_shows%2F500%2Fespnfc_circle_500.png&w=60&h=60&scale=crop&cquality=80&location=origin HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:50 2018
+
+133: not in cache
+133: Requesting GET http://a4.espncdn.com/combiner/i?img=%2Fi%2Fespn%2Fnetworks_shows%2F500%2Fespnfc_circle_500.png&w=60&h=60&scale=crop&cquality=80&location=origin HTTP/1.1 from a4.espncdn.com
+132: Received HTTP/1.1 200 OK from a2.espncdn.com
+132: cached, expires at Tue, 24 Apr 2018 06:58:46 GMT
+132: NOTE Cache-Control: max-age=4509296
+132: Responding HTTP/1.1 200 OK
+135: GET http://a3.espncdn.com/combiner/i?img=%2Fi%2Fespn%2Fnetworks_shows%2F500%2Fsec_network.png&w=60&h=60&scale=crop&cquality=80&location=origin HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:50 2018
+
+135: not in cache
+135: Requesting GET http://a3.espncdn.com/combiner/i?img=%2Fi%2Fespn%2Fnetworks_shows%2F500%2Fsec_network.png&w=60&h=60&scale=crop&cquality=80&location=origin HTTP/1.1 from a3.espncdn.com
+133: Received HTTP/1.1 200 OK from a4.espncdn.com
+133: cached, expires at Mon, 26 Mar 2018 03:03:15 GMT
+133: NOTE Cache-Control: max-age=1989565
+133: Responding HTTP/1.1 200 OK
+134: Received HTTP/1.1 200 OK from a.espncdn.com
+134: cached, expires at Tue, 10 Apr 2018 06:46:43 GMT
+134: NOTE Cache-Control: max-age=3298973
+134: Responding HTTP/1.1 200 OK
+136: GET http://a.espncdn.com/combiner/i?img=%2Fi%2Fespn%2Fnetworks_shows%2F500%2Fsn.png&w=60&h=60&scale=crop&cquality=80&location=origin HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:50 2018
+
+136: not in cache
+136: Requesting GET http://a.espncdn.com/combiner/i?img=%2Fi%2Fespn%2Fnetworks_shows%2F500%2Fsn.png&w=60&h=60&scale=crop&cquality=80&location=origin HTTP/1.1 from a.espncdn.com
+135: Received HTTP/1.1 200 OK from a3.espncdn.com
+135: cached, expires at Sat, 07 Apr 2018 22:53:16 GMT
+135: NOTE Cache-Control: max-age=3097766
+135: Responding HTTP/1.1 200 OK
+137: GET http://a.espncdn.com/combiner/i?img=%2Fi%2Fmobile%2Fwebsite%2Fimg%2Fespn_app_72@2x.png&w=60&h=60&scale=crop&cquality=80&location=origin HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:50 2018
+
+137: not in cache
+137: Requesting GET http://a.espncdn.com/combiner/i?img=%2Fi%2Fmobile%2Fwebsite%2Fimg%2Fespn_app_72@2x.png&w=60&h=60&scale=crop&cquality=80&location=origin HTTP/1.1 from a.espncdn.com
+136: Received HTTP/1.1 200 OK from a.espncdn.com
+136: cached, expires at Mon, 02 Apr 2018 16:37:20 GMT
+136: NOTE Cache-Control: max-age=2643210
+136: Responding HTTP/1.1 200 OK
+138: GET http://a.espncdn.com/combiner/i?img=%2Fi%2Fmobile%2Fwebsite%2Fimg%2Fflm%2Dapp%2Dtile.png&w=60&h=60&scale=crop&cquality=80&location=origin HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:50 2018
+
+139: GET http://a1.espncdn.com/combiner/i?img=%2Fi%2Ffantasy%2Ffacebook.png&w=60&h=60&scale=crop&cquality=80&location=origin HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:50 2018
+
+138: not in cache
+138: Requesting GET http://a.espncdn.com/combiner/i?img=%2Fi%2Fmobile%2Fwebsite%2Fimg%2Fflm%2Dapp%2Dtile.png&w=60&h=60&scale=crop&cquality=80&location=origin HTTP/1.1 from a.espncdn.com
+139: not in cache
+139: Requesting GET http://a1.espncdn.com/combiner/i?img=%2Fi%2Ffantasy%2Ffacebook.png&w=60&h=60&scale=crop&cquality=80&location=origin HTTP/1.1 from a1.espncdn.com
+137: Received HTTP/1.1 200 OK from a.espncdn.com
+137: cached, expires at Tue, 10 Apr 2018 03:28:19 GMT
+137: NOTE Cache-Control: max-age=3287069
+137: Responding HTTP/1.1 200 OK
+140: GET http://a2.espncdn.com/combiner/i?img=%2Fi%2Ffantasy%2Ftwitter.png&w=60&h=60&scale=crop&cquality=80&location=origin HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:50 2018
+
+140: not in cache
+140: Requesting GET http://a2.espncdn.com/combiner/i?img=%2Fi%2Ffantasy%2Ftwitter.png&w=60&h=60&scale=crop&cquality=80&location=origin HTTP/1.1 from a2.espncdn.com
+138: Received HTTP/1.1 200 OK from a.espncdn.com
+138: cached, expires at Tue, 10 Apr 2018 11:27:11 GMT
+138: NOTE Cache-Control: max-age=3315801
+138: Responding HTTP/1.1 200 OK
+139: Received HTTP/1.1 200 OK from a1.espncdn.com
+139: cached, expires at Thu, 22 Mar 2018 06:56:52 GMT
+139: NOTE Cache-Control: max-age=1657982
+139: Responding HTTP/1.1 200 OK
+140: Received HTTP/1.1 200 OK from a2.espncdn.com
+140: cached, expires at Sun, 08 Apr 2018 04:46:03 GMT
+140: NOTE Cache-Control: max-age=3118933
+140: Responding HTTP/1.1 200 OK
+141: GET http://a1.espncdn.com/combiner/i?img=%2Fi%2Ffantasy%2Finstagram.png&w=60&h=60&scale=crop&cquality=80&location=origin HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:50 2018
+
+141: not in cache
+141: Requesting GET http://a1.espncdn.com/combiner/i?img=%2Fi%2Ffantasy%2Finstagram.png&w=60&h=60&scale=crop&cquality=80&location=origin HTTP/1.1 from a1.espncdn.com
+142: GET http://a.espncdn.com/combiner/i?img=%2Fi%2Ffantasy%2Fsnapchat.png&w=60&h=60&scale=crop&cquality=80&location=origin HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:50 2018
+
+142: not in cache
+142: Requesting GET http://a.espncdn.com/combiner/i?img=%2Fi%2Ffantasy%2Fsnapchat.png&w=60&h=60&scale=crop&cquality=80&location=origin HTTP/1.1 from a.espncdn.com
+143: GET http://a3.espncdn.com/combiner/i?img=%2Fi%2Ffantasy%2Fyoutube.png&w=60&h=60&scale=crop&cquality=80&location=origin HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:50 2018
+
+143: not in cache
+143: Requesting GET http://a3.espncdn.com/combiner/i?img=%2Fi%2Ffantasy%2Fyoutube.png&w=60&h=60&scale=crop&cquality=80&location=origin HTTP/1.1 from a3.espncdn.com
+141: Received HTTP/1.1 200 OK from a1.espncdn.com
+141: cached, expires at Thu, 22 Mar 2018 07:32:44 GMT
+141: NOTE Cache-Control: max-age=1660134
+141: Responding HTTP/1.1 200 OK
+142: Received HTTP/1.1 200 OK from a.espncdn.com
+142: cached, expires at Mon, 02 Apr 2018 04:13:47 GMT
+142: NOTE Cache-Control: max-age=2598597
+142: Responding HTTP/1.1 200 OK
+143: Received HTTP/1.1 200 OK from a3.espncdn.com
+143: cached, expires at Fri, 09 Mar 2018 19:39:28 GMT
+143: NOTE Cache-Control: max-age=580538
+144: GET http://a2.espncdn.com/combiner/i?img=%2Fredesign%2Fassets%2Fimg%2Flogos%2FespnDailyLogo%2D45x45.png&w=60&h=60&scale=crop&cquality=80&location=origin HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:50 2018
+
+144: not in cache
+144: Requesting GET http://a2.espncdn.com/combiner/i?img=%2Fredesign%2Fassets%2Fimg%2Flogos%2FespnDailyLogo%2D45x45.png&w=60&h=60&scale=crop&cquality=80&location=origin HTTP/1.1 from a2.espncdn.com
+143: Responding HTTP/1.1 200 OK
+145: GET http://a2.espncdn.com/combiner/i?img=%2Fi%2Ffantasy%2Fdailycal_square.png&w=60&h=60&scale=crop&cquality=80&location=origin HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:50 2018
+
+145: not in cache
+145: Requesting GET http://a2.espncdn.com/combiner/i?img=%2Fi%2Ffantasy%2Fdailycal_square.png&w=60&h=60&scale=crop&cquality=80&location=origin HTTP/1.1 from a2.espncdn.com
+146: GET http://a.espncdn.com/combiner/i?img=%2Fmedia%2Fmotion%2F2018%2F0302%2Fdm_180302_NBA_One%2DPlay_Ibaka_dunk_off_miss%2Fdm_180302_NBA_One%2DPlay_Ibaka_dunk_off_miss.jpg&w=1536&h=864&scale=crop&cquality=40&location=origin HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:50 2018
+
+146: not in cache
+146: Requesting GET http://a.espncdn.com/combiner/i?img=%2Fmedia%2Fmotion%2F2018%2F0302%2Fdm_180302_NBA_One%2DPlay_Ibaka_dunk_off_miss%2Fdm_180302_NBA_One%2DPlay_Ibaka_dunk_off_miss.jpg&w=1536&h=864&scale=crop&cquality=40&location=origin HTTP/1.1 from a.espncdn.com
+144: Received HTTP/1.1 200 OK from a2.espncdn.com
+144: cached, expires at Sun, 08 Apr 2018 11:59:11 GMT
+144: NOTE Cache-Control: max-age=3144921
+144: Responding HTTP/1.1 200 OK
+145: Received HTTP/1.1 200 OK from a2.espncdn.com
+145: cached, expires at Tue, 03 Apr 2018 04:01:39 GMT
+145: NOTE Cache-Control: max-age=2684269
+145: Responding HTTP/1.1 200 OK
+147: GET http://a.espncdn.com/test/fancyLogo2.svg HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:50 2018
+
+147: not in cache
+147: Requesting GET http://a.espncdn.com/test/fancyLogo2.svg HTTP/1.1 from a.espncdn.com
+149: GET http://a.espncdn.com/combiner/i?img=/redesign/assets/img/logos/logo-538-24x31.png&h=32&w=32 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:50 2018
+
+149: not in cache
+149: Requesting GET http://a.espncdn.com/combiner/i?img=/redesign/assets/img/logos/logo-538-24x31.png&h=32&w=32 HTTP/1.1 from a.espncdn.com
+147: Received HTTP/1.1 200 OK from a.espncdn.com
+147: NOTE Cache-Control: max-age=555801
+147: Responding HTTP/1.1 200 OK
+148: GET http://a1.espncdn.com/fonts/1.0.46/ESPNIcons/ESPNIcons.woff2 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:50 2018
+
+148: not in cache
+148: Requesting GET http://a1.espncdn.com/fonts/1.0.46/ESPNIcons/ESPNIcons.woff2 HTTP/1.1 from a1.espncdn.com
+146: Received HTTP/1.1 200 OK from a.espncdn.com
+146: cached, expires at Wed, 02 May 2018 02:13:39 GMT
+146: NOTE Cache-Control: max-age=5183389
+146: Responding HTTP/1.1 200 OK
+149: Received HTTP/1.1 200 OK from a.espncdn.com
+149: cached, expires at Sat, 21 Apr 2018 04:51:50 GMT
+149: NOTE Cache-Control: max-age=4242480
+149: Responding HTTP/1.1 200 OK
+150: GET http://a.espncdn.com/redesign/assets/img/logos/flb-homepage-signup-module-header-light.png HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:50 2018
+
+150: not in cache
+150: Requesting GET http://a.espncdn.com/redesign/assets/img/logos/flb-homepage-signup-module-header-light.png HTTP/1.1 from a.espncdn.com
+151: GET http://a.espncdn.com/redesign/assets/img/logos/logo-espn-82x20@2x.png HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:50 2018
+
+151: not in cache
+151: Requesting GET http://a.espncdn.com/redesign/assets/img/logos/logo-espn-82x20@2x.png HTTP/1.1 from a.espncdn.com
+150: Received HTTP/1.1 200 OK from a.espncdn.com
+150: NOTE Cache-Control: max-age=4303384
+150: Responding HTTP/1.1 200 OK
+148: Received HTTP/1.1 200 OK from a1.espncdn.com
+148: NOTE Cache-Control: max-age=3493504
+148: Responding HTTP/1.1 200 OK
+151: Received HTTP/1.1 200 OK from a.espncdn.com
+151: NOTE Cache-Control: max-age=1775315
+151: Responding HTTP/1.1 200 OK
+152: CONNECT 310987714.log.optimizely.com:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:50 2018
+
+152: Requesting CONNECT 310987714.log.optimizely.com:443 HTTP/1.1 from 310987714.log.optimizely.com
+153: CONNECT logx.optimizely.com:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:50 2018
+
+153: Requesting CONNECT logx.optimizely.com:443 HTTP/1.1 from logx.optimizely.com
+154: POST http://ocsp.digicert.com/ HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:51 2018
+
+154: Requesting POST http://ocsp.digicert.com/ HTTP/1.1 from ocsp.digicert.com
+154: Received HTTP/1.1 200 OK from ocsp.digicert.com
+154: NOTE Etag: "5a99ac20-1d7"
+154: Responding HTTP/1.1 200 OK
+155: POST http://ocsp.digicert.com/ HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:51 2018
+
+155: Requesting POST http://ocsp.digicert.com/ HTTP/1.1 from ocsp.digicert.com
+156: CONNECT sds.livesegmentservice.com:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:51 2018
+
+156: Requesting CONNECT sds.livesegmentservice.com:443 HTTP/1.1 from sds.livesegmentservice.com
+155: Received HTTP/1.1 200 OK from ocsp.digicert.com
+155: NOTE Etag: "5a99eca7-1d7"
+155: Responding HTTP/1.1 200 OK
+157: POST http://ocsp.entrust.net/ HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:51 2018
+
+157: Requesting POST http://ocsp.entrust.net/ HTTP/1.1 from ocsp.entrust.net
+157: Received HTTP/1.1 200 OK from ocsp.entrust.net
+157: Responding HTTP/1.1 200 OK
+158: GET http://a.espncdn.com/redesign/0.389.10/js/espn-defer.js HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:51 2018
+
+159: GET http://a.espncdn.com/redesign/0.389.10/js/espn-defer-low.js HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:51 2018
+
+158: not in cache
+158: Requesting GET http://a.espncdn.com/redesign/0.389.10/js/espn-defer.js HTTP/1.1 from a.espncdn.com
+159: not in cache
+159: Requesting GET http://a.espncdn.com/redesign/0.389.10/js/espn-defer-low.js HTTP/1.1 from a.espncdn.com
+159: Received HTTP/1.1 200 OK from a.espncdn.com
+159: NOTE Cache-Control: max-age=4984416
+159: Responding HTTP/1.1 200 OK
+158: Received HTTP/1.1 200 OK from a.espncdn.com
+158: NOTE Cache-Control: max-age=4984396
+158: Responding HTTP/1.1 200 OK
+160: GET http://a.espncdn.com/wireless/mw5/r1/images/bookmark-icons/espn_icon-152x152.min.png HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:51 2018
+
+161: GET http://a.espncdn.com/redesign/0.389.10/js/espn-analytics.js HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:51 2018
+
+160: not in cache
+160: Requesting GET http://a.espncdn.com/wireless/mw5/r1/images/bookmark-icons/espn_icon-152x152.min.png HTTP/1.1 from a.espncdn.com
+161: not in cache
+161: Requesting GET http://a.espncdn.com/redesign/0.389.10/js/espn-analytics.js HTTP/1.1 from a.espncdn.com
+160: Received HTTP/1.1 200 OK from a.espncdn.com
+160: NOTE Cache-Control: max-age=555916
+160: Responding HTTP/1.1 200 OK
+162: GET http://tredir.espn.com/capmon/GetDE?set=j&param=country&param=countryisocode&param=state&param=metro&param=metrocode&param=postcode&param=offset&param=dst&param=countrycode&param=connection HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:51 2018
+
+162: not in cache
+162: Requesting GET http://tredir.espn.com/capmon/GetDE?set=j&param=country&param=countryisocode&param=state&param=metro&param=metrocode&param=postcode&param=offset&param=dst&param=countrycode&param=connection HTTP/1.1 from tredir.espn.com
+161: Received HTTP/1.1 200 OK from a.espncdn.com
+161: NOTE Cache-Control: max-age=4984419
+161: Responding HTTP/1.1 200 OK
+163: GET http://a.espncdn.com/favicon.ico HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:51 2018
+
+163: not in cache
+163: Requesting GET http://a.espncdn.com/favicon.ico HTTP/1.1 from a.espncdn.com
+163: Received HTTP/1.1 200 OK from a.espncdn.com
+163: NOTE Cache-Control: max-age=1716749
+163: Responding HTTP/1.1 200 OK
+162: Received HTTP/1.1 200 OK from tredir.espn.com
+162: NOTE empty 'cache-control', consider to be noncacheable
+162: Responding HTTP/1.1 200 OK
+164: GET http://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png&w=100&h=100&transparent=true HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:52 2018
+
+164: not in cache
+164: Requesting GET http://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png&w=100&h=100&transparent=true HTTP/1.1 from a.espncdn.com
+165: GET http://a3.espncdn.com/combiner/i?img=%2Fphoto%2F2018%2F0301%2Fr335137_1296x518_5%2D2.jpg&w=1296&h=518&scale=crop&cquality=40&location=origin HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:52 2018
+
+165: not in cache
+165: Requesting GET http://a3.espncdn.com/combiner/i?img=%2Fphoto%2F2018%2F0301%2Fr335137_1296x518_5%2D2.jpg&w=1296&h=518&scale=crop&cquality=40&location=origin HTTP/1.1 from a3.espncdn.com
+164: Received HTTP/1.1 200 OK from a.espncdn.com
+164: cached, expires at Tue, 17 Apr 2018 16:31:31 GMT
+164: NOTE Cache-Control: max-age=3938859
+164: Responding HTTP/1.1 200 OK
+165: Received HTTP/1.1 200 OK from a3.espncdn.com
+165: cached, expires at Tue, 01 May 2018 13:28:15 GMT
+165: NOTE Cache-Control: max-age=5137463
+165: Responding HTTP/1.1 200 OK
+166: CONNECT cdn.registerdisney.go.com:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:52 2018
+
+166: Requesting CONNECT cdn.registerdisney.go.com:443 HTTP/1.1 from cdn.registerdisney.go.com
+167: GET http://fan.api.espn.com/apis/v2/recommendations/postalCode/27701?source=ESPN.com+-+FAM&displayEvents=true&displayNow=true&limit=5 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:52 2018
+
+167: not in cache
+167: Requesting GET http://fan.api.espn.com/apis/v2/recommendations/postalCode/27701?source=ESPN.com+-+FAM&displayEvents=true&displayNow=true&limit=5 HTTP/1.1 from fan.api.espn.com
+167: Received HTTP/1.1 200 OK from fan.api.espn.com
+167: NOTE Cache-Control: max-age=82
+167: Responding HTTP/1.1 200 OK
+169: GET http://cdn.espn.com/core/api/v0/nav/index?&device=desktop&country=us&lang=en&region=us&site=espn&edition-host=espn.com&one-site=true&site-type=full HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:52 2018
+
+169: not in cache
+169: Requesting GET http://cdn.espn.com/core/api/v0/nav/index?&device=desktop&country=us&lang=en&region=us&site=espn&edition-host=espn.com&one-site=true&site-type=full HTTP/1.1 from cdn.espn.com
+168: POST http://ocsp.entrust.net/ HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:52 2018
+
+168: Requesting POST http://ocsp.entrust.net/ HTTP/1.1 from ocsp.entrust.net
+169: Received HTTP/1.1 200 OK from cdn.espn.com
+169: NOTE Cache-Control: max-age=129
+169: Responding HTTP/1.1 200 OK
+168: Received HTTP/1.1 200 OK from ocsp.entrust.net
+168: Responding HTTP/1.1 200 OK
+170: GET http://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard/conferences?groups=50&lang=en&region=us&contentorigin=espn&tz=America%2FNew_York HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:53 2018
+
+170: not in cache
+170: Requesting GET http://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard/conferences?groups=50&lang=en&region=us&contentorigin=espn&tz=America%2FNew_York HTTP/1.1 from site.api.espn.com
+170: Received HTTP/1.1 200 OK from site.api.espn.com
+170: NOTE Cache-Control: max-age=14
+170: Responding HTTP/1.1 200 OK
+171: GET http://site.api.espn.com/apis/site/v2/sports/basketball/womens-college-basketball/scoreboard/conferences?groups=50&lang=en&region=us&contentorigin=espn&tz=America%2FNew_York HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:53 2018
+
+171: not in cache
+171: Requesting GET http://site.api.espn.com/apis/site/v2/sports/basketball/womens-college-basketball/scoreboard/conferences?groups=50&lang=en&region=us&contentorigin=espn&tz=America%2FNew_York HTTP/1.1 from site.api.espn.com
+171: Received HTTP/1.1 200 OK from site.api.espn.com
+171: NOTE Cache-Control: max-age=10
+171: Responding HTTP/1.1 200 OK
+172: GET http://a1.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/tor.png&h=208&w=208 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:54 2018
+
+172: not in cache
+172: Requesting GET http://a1.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/tor.png&h=208&w=208 HTTP/1.1 from a1.espncdn.com
+173: GET http://a1.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/wsh.png&h=208&w=208 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:54 2018
+
+173: not in cache
+173: Requesting GET http://a1.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/wsh.png&h=208&w=208 HTTP/1.1 from a1.espncdn.com
+174: GET http://a1.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/213.png&h=208&w=208 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:54 2018
+
+174: not in cache
+174: Requesting GET http://a1.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/213.png&h=208&w=208 HTTP/1.1 from a1.espncdn.com
+172: Received HTTP/1.1 200 OK from a1.espncdn.com
+172: cached, expires at Mon, 30 Apr 2018 15:22:01 GMT
+172: NOTE Cache-Control: max-age=5057887
+172: Responding HTTP/1.1 200 OK
+175: GET http://a1.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/194.png&h=208&w=208 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:54 2018
+
+175: not in cache
+175: Requesting GET http://a1.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/194.png&h=208&w=208 HTTP/1.1 from a1.espncdn.com
+173: Received HTTP/1.1 200 OK from a1.espncdn.com
+173: cached, expires at Sun, 25 Mar 2018 16:59:23 GMT
+173: NOTE Cache-Control: max-age=1953329
+173: Responding HTTP/1.1 200 OK
+174: Received HTTP/1.1 200 OK from a1.espncdn.com
+174: cached, expires at Wed, 18 Apr 2018 10:03:34 GMT
+174: NOTE Cache-Control: max-age=4001980
+174: Responding HTTP/1.1 200 OK
+175: Received HTTP/1.1 200 OK from a1.espncdn.com
+175: cached, expires at Wed, 28 Mar 2018 09:40:12 GMT
+175: NOTE Cache-Control: max-age=2186178
+175: Responding HTTP/1.1 200 OK
+176: GET http://a1.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/min.png&h=208&w=208 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:54 2018
+
+176: not in cache
+176: Requesting GET http://a1.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/min.png&h=208&w=208 HTTP/1.1 from a1.espncdn.com
+177: GET http://a1.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/utah.png&h=208&w=208 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:54 2018
+
+177: not in cache
+177: Requesting GET http://a1.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/utah.png&h=208&w=208 HTTP/1.1 from a1.espncdn.com
+177: Received HTTP/1.1 200 OK from a1.espncdn.com
+177: cached, expires at Mon, 12 Mar 2018 23:38:40 GMT
+177: NOTE Cache-Control: max-age=854086
+177: Responding HTTP/1.1 200 OK
+176: Received HTTP/1.1 200 OK from a1.espncdn.com
+176: cached, expires at Fri, 06 Apr 2018 03:23:12 GMT
+176: NOTE Cache-Control: max-age=2941158
+176: Responding HTTP/1.1 200 OK
+178: GET http://a1.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/66.png&h=208&w=208 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:54 2018
+
+178: not in cache
+178: Requesting GET http://a1.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/66.png&h=208&w=208 HTTP/1.1 from a1.espncdn.com
+179: GET http://a1.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/201.png&h=208&w=208 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:54 2018
+
+179: not in cache
+179: Requesting GET http://a1.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/201.png&h=208&w=208 HTTP/1.1 from a1.espncdn.com
+178: Received HTTP/1.1 200 OK from a1.espncdn.com
+178: cached, expires at Wed, 28 Mar 2018 04:51:49 GMT
+178: NOTE Cache-Control: max-age=2168875
+178: Responding HTTP/1.1 200 OK
+179: Received HTTP/1.1 200 OK from a1.espncdn.com
+179: cached, expires at Sun, 22 Apr 2018 01:32:54 GMT
+179: NOTE Cache-Control: max-age=4316940
+179: Responding HTTP/1.1 200 OK
+180: GET http://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png?w=110&h=110&transparent=true&h=160&w=160 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:54 2018
+
+180: not in cache
+180: Requesting GET http://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png?w=110&h=110&transparent=true&h=160&w=160 HTTP/1.1 from a.espncdn.com
+181: GET http://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png?w=110&h=110&transparent=true&h=160&w=160 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:54 2018
+
+181: not in cache
+181: Requesting GET http://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png?w=110&h=110&transparent=true&h=160&w=160 HTTP/1.1 from a.espncdn.com
+183: GET http://a.espncdn.com/combiner/i?img=/redesign/assets/img/icons/ESPN-icon-basketball.png&h=160&w=160&scale=crop&cquality=40 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:54 2018
+
+183: not in cache
+183: Requesting GET http://a.espncdn.com/combiner/i?img=/redesign/assets/img/icons/ESPN-icon-basketball.png&h=160&w=160&scale=crop&cquality=40 HTTP/1.1 from a.espncdn.com
+184: GET http://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png?w=110&h=110&transparent=true&h=160&w=160 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:54 2018
+
+184: not in cache
+184: Requesting GET http://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png?w=110&h=110&transparent=true&h=160&w=160 HTTP/1.1 from a.espncdn.com
+185: GET http://a.espncdn.com/combiner/i?img=/redesign/assets/img/icons/ESPN-icon-soccer.png&h=160&w=160&scale=crop&cquality=40 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:54 2018
+
+185: not in cache
+185: Requesting GET http://a.espncdn.com/combiner/i?img=/redesign/assets/img/icons/ESPN-icon-soccer.png&h=160&w=160&scale=crop&cquality=40 HTTP/1.1 from a.espncdn.com
+182: GET http://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png?w=110&h=110&transparent=true&h=160&w=160 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:54 2018
+
+182: not in cache
+182: Requesting GET http://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png?w=110&h=110&transparent=true&h=160&w=160 HTTP/1.1 from a.espncdn.com
+187: GET http://a.espncdn.com/combiner/i?img=/i/mobile/website/img/espn_app_72@2x.png&w=160&h=160&transparent=true HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:54 2018
+
+187: not in cache
+187: Requesting GET http://a.espncdn.com/combiner/i?img=/i/mobile/website/img/espn_app_72@2x.png&w=160&h=160&transparent=true HTTP/1.1 from a.espncdn.com
+186: GET http://a.espncdn.com/combiner/i?img=/i/mobile/website/img/flm-onehouse-apptile-180.png&w=160&h=160&transparent=true HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:54 2018
+
+186: not in cache
+186: Requesting GET http://a.espncdn.com/combiner/i?img=/i/mobile/website/img/flm-onehouse-apptile-180.png&w=160&h=160&transparent=true HTTP/1.1 from a.espncdn.com
+180: Received HTTP/1.1 200 OK from a.espncdn.com
+180: cached, expires at Tue, 17 Apr 2018 18:23:39 GMT
+180: NOTE Cache-Control: max-age=3945585
+180: Responding HTTP/1.1 200 OK
+181: Received HTTP/1.1 200 OK from a.espncdn.com
+181: cached, expires at Tue, 10 Apr 2018 08:36:15 GMT
+181: NOTE Cache-Control: max-age=3305541
+181: Responding HTTP/1.1 200 OK
+185: Received HTTP/1.1 200 OK from a.espncdn.com
+185: cached, expires at Thu, 19 Apr 2018 02:15:16 GMT
+185: NOTE Cache-Control: max-age=4060282
+185: Responding HTTP/1.1 200 OK
+183: Received HTTP/1.1 200 OK from a.espncdn.com
+183: cached, expires at Tue, 01 May 2018 02:22:26 GMT
+183: NOTE Cache-Control: max-age=5097512
+182: Received HTTP/1.1 200 OK from a.espncdn.com
+182: cached, expires at Tue, 10 Apr 2018 05:10:20 GMT
+182: NOTE Cache-Control: max-age=3293186
+183: Responding HTTP/1.1 200 OK
+182: Responding HTTP/1.1 200 OK
+184: Received HTTP/1.1 200 OK from a.espncdn.com
+184: cached, expires at Sun, 11 Mar 2018 02:58:12 GMT
+184: NOTE Cache-Control: max-age=693258
+184: Responding HTTP/1.1 200 OK
+187: Received HTTP/1.1 200 OK from a.espncdn.com
+187: cached, expires at Wed, 18 Apr 2018 15:25:34 GMT
+187: NOTE Cache-Control: max-age=4021300
+187: Responding HTTP/1.1 200 OK
+186: Received HTTP/1.1 200 OK from a.espncdn.com
+186: cached, expires at Fri, 09 Mar 2018 02:42:16 GMT
+186: NOTE Cache-Control: max-age=519502
+186: Responding HTTP/1.1 200 OK
+188: CONNECT www.espn.com:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:55 2018
+
+188: Requesting CONNECT www.espn.com:443 HTTP/1.1 from www.espn.com
+189: GET http://aglobal.go.com/stat/cto-espn.js HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:55 2018
+
+189: not in cache
+189: Requesting GET http://aglobal.go.com/stat/cto-espn.js HTTP/1.1 from aglobal.go.com
+190: POST http://ocsp.entrust.net/ HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:55 2018
+
+190: Requesting POST http://ocsp.entrust.net/ HTTP/1.1 from ocsp.entrust.net
+189: Received HTTP/1.1 200 OK from aglobal.go.com
+189: cached, expires at Sat, 03 Mar 2018 04:23:55 GMT
+189: NOTE Cache-Control: public, max-age=7200
+189: Responding HTTP/1.1 200 OK
+190: Received HTTP/1.1 200 OK from ocsp.entrust.net
+190: Responding HTTP/1.1 200 OK
+191: GET http://cdn.unid.go.com/js/unid.min.js HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:55 2018
+
+191: not in cache
+191: Requesting GET http://cdn.unid.go.com/js/unid.min.js HTTP/1.1 from cdn.unid.go.com
+191: Received HTTP/1.1 200 OK from cdn.unid.go.com
+191: cached, but requires re-validation
+191: NOTE Cache-Control: public, must-revalidate, max-age=86128
+191: Responding HTTP/1.1 200 OK
+192: GET http://cdn.unid.go.com/inner/?v=4.0.26 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:56 2018
+
+192: not in cache
+192: Requesting GET http://cdn.unid.go.com/inner/?v=4.0.26 HTTP/1.1 from cdn.unid.go.com
+194: CONNECT cdn.registerdisney.go.com:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:56 2018
+
+194: Requesting CONNECT cdn.registerdisney.go.com:443 HTTP/1.1 from cdn.registerdisney.go.com
+192: Received HTTP/1.1 200 OK from cdn.unid.go.com
+192: cached, but requires re-validation
+192: NOTE Cache-Control: public, must-revalidate, max-age=71973
+192: Responding HTTP/1.1 200 OK
+193: GET http://players.brightcove.net/3948005062001/B1qaqIqkf_default/index.min.js HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:56 2018
+
+193: not in cache
+193: Requesting GET http://players.brightcove.net/3948005062001/B1qaqIqkf_default/index.min.js HTTP/1.1 from players.brightcove.net
+193: Received HTTP/1.1 200 OK from players.brightcove.net
+193: NOTE Cache-Control: public, max-age=119
+193: Responding HTTP/1.1 200 OK
+195: OPTIONS http://unid.go.com/v3/hit HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:56 2018
+
+197: OPTIONS http://unid.go.com/v3/hit HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:56 2018
+
+196: OPTIONS http://unid.go.com/v3/hit HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:56 2018
+
+198: OPTIONS http://unid.go.com/v3/hit HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:56 2018
+
+199: OPTIONS http://unid.go.com/v3/hit HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:56 2018
+
+200: OPTIONS http://unid.go.com/v3/hit HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:56 2018
+
+201: OPTIONS http://unid.go.com/v3/hit HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:56 2018
+
+202: OPTIONS http://unid.go.com/v3/hit HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:56 2018
+
+203: GET http://a1.espncdn.com/combiner/i?img=/media/motion/2018/0302/dm_180302_NBA_One-Play_Ibaka_dunk_off_miss/dm_180302_NBA_One-Play_Ibaka_dunk_off_miss.jpg HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:56 2018
+
+203: not in cache
+203: Requesting GET http://a1.espncdn.com/combiner/i?img=/media/motion/2018/0302/dm_180302_NBA_One-Play_Ibaka_dunk_off_miss/dm_180302_NBA_One-Play_Ibaka_dunk_off_miss.jpg HTTP/1.1 from a1.espncdn.com
+204: OPTIONS http://unid.go.com/v3/hit HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:56 2018
+
+205: OPTIONS http://unid.go.com/v3/hit HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:56 2018
+
+203: Received HTTP/1.1 200 OK from a1.espncdn.com
+203: cached, expires at Wed, 02 May 2018 02:11:51 GMT
+203: NOTE Cache-Control: max-age=5183275
+203: Responding HTTP/1.1 200 OK
+206: OPTIONS http://unid.go.com/v3/hit HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:56 2018
+
+207: OPTIONS http://unid.go.com/v3/hit HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:56 2018
+
+208: OPTIONS http://unid.go.com/v3/hit HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:57 2018
+
+209: OPTIONS http://unid.go.com/v3/hit HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:57 2018
+
+210: OPTIONS http://unid.go.com/v3/hit HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:57 2018
+
+211: OPTIONS http://unid.go.com/v3/hit HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:57 2018
+
+212: OPTIONS http://unid.go.com/v3/hit HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:57 2018
+
+213: OPTIONS http://unid.go.com/v3/hit HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:57 2018
+
+214: OPTIONS http://unid.go.com/v3/hit HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:57 2018
+
+215: OPTIONS http://unid.go.com/v3/hit HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:57 2018
+
+216: CONNECT vjs.zencdn.net:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:57 2018
+
+216: Requesting CONNECT vjs.zencdn.net:443 HTTP/1.1 from vjs.zencdn.net
+217: GET http://metrics.brightcove.com/v2/tracker?domain=videocloud&platform=video-js&session=10d4ccc1e5474a2170d757e9&account=3948005062001&destination=http%3A%2F%2Fwww.espn.com%2F&platform_version=5.22.2&player=players.brightcove.com%2F3948005062001%2FB1qaqIqkf_default&player_name=Prod%201.8.5%20no%20flashls%20-%20FW%20v2.8.5&source=&event=player_init&time=1520043837839 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:57 2018
+
+217: not in cache
+217: Requesting GET http://metrics.brightcove.com/v2/tracker?domain=videocloud&platform=video-js&session=10d4ccc1e5474a2170d757e9&account=3948005062001&destination=http%3A%2F%2Fwww.espn.com%2F&platform_version=5.22.2&player=players.brightcove.com%2F3948005062001%2FB1qaqIqkf_default&player_name=Prod%201.8.5%20no%20flashls%20-%20FW%20v2.8.5&source=&event=player_init&time=1520043837839 HTTP/1.1 from metrics.brightcove.com
+217: Received HTTP/1.1 200 OK from metrics.brightcove.com
+217: not cacheable because no-store
+217: cached, but requires re-validation
+217: NOTE Cache-Control: must-revalidate,no-cache,no-store
+217: Responding HTTP/1.1 200 OK
+218: GET http://api-app.espn.com/v1/video/clips/22628105 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:57 2018
+
+218: not in cache
+218: Requesting GET http://api-app.espn.com/v1/video/clips/22628105 HTTP/1.1 from api-app.espn.com
+218: Received HTTP/1.1 200 OK from api-app.espn.com
+218: NOTE Cache-Control: max-age=175
+218: Responding HTTP/1.1 200 OK
+219: CONNECT tags.tiqcdn.com:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:58 2018
+
+219: Requesting CONNECT tags.tiqcdn.com:443 HTTP/1.1 from tags.tiqcdn.com
+220: GET http://a.espncdn.com/js/omniture/tracking.js HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:58 2018
+
+220: not in cache
+220: Requesting GET http://a.espncdn.com/js/omniture/tracking.js HTTP/1.1 from a.espncdn.com
+220: Received HTTP/1.1 200 OK from a.espncdn.com
+220: NOTE Cache-Control: max-age=3976587
+220: Responding HTTP/1.1 200 OK
+222: GET http://www.espn.com/core/l?a=true&t=false HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:58 2018
+
+222: not in cache
+222: Requesting GET http://www.espn.com/core/l?a=true&t=false HTTP/1.1 from www.espn.com
+221: GET http://a1.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/ind.png&h=40&w=40 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:58 2018
+
+221: not in cache
+221: Requesting GET http://a1.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/ind.png&h=40&w=40 HTTP/1.1 from a1.espncdn.com
+223: GET http://a1.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/usa.png&h=40&w=40 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:58 2018
+
+223: not in cache
+223: Requesting GET http://a1.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/usa.png&h=40&w=40 HTTP/1.1 from a1.espncdn.com
+224: GET http://a1.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/esp.png&h=40&w=40 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:58 2018
+
+224: not in cache
+224: Requesting GET http://a1.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/esp.png&h=40&w=40 HTTP/1.1 from a1.espncdn.com
+225: CONNECT watch.auth.api.espn.com:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:58 2018
+
+225: Requesting CONNECT watch.auth.api.espn.com:443 HTTP/1.1 from watch.auth.api.espn.com
+223: Received HTTP/1.1 200 OK from a1.espncdn.com
+223: cached, expires at Sat, 28 Apr 2018 14:18:51 GMT
+223: NOTE Cache-Control: max-age=4881293
+223: Responding HTTP/1.1 200 OK
+224: Received HTTP/1.1 200 OK from a1.espncdn.com
+224: cached, expires at Sun, 18 Mar 2018 16:10:26 GMT
+224: NOTE Cache-Control: max-age=1345588
+224: Responding HTTP/1.1 200 OK
+221: Received HTTP/1.1 200 OK from a1.espncdn.com
+221: cached, expires at Sun, 15 Apr 2018 19:32:32 GMT
+221: NOTE Cache-Control: max-age=3776914
+221: Responding HTTP/1.1 200 OK
+226: GET http://a1.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/rsa.png&h=40&w=40 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:58 2018
+
+226: not in cache
+226: Requesting GET http://a1.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/rsa.png&h=40&w=40 HTTP/1.1 from a1.espncdn.com
+222: Received HTTP/1.1 200 OK from www.espn.com
+222: cached, but requires re-validation
+222: NOTE Cache-Control: max-age=1, must-revalidate
+222: Responding HTTP/1.1 200 OK
+226: Received HTTP/1.1 200 OK from a1.espncdn.com
+226: cached, expires at Mon, 12 Mar 2018 06:49:19 GMT
+226: NOTE Cache-Control: max-age=793521
+226: Responding HTTP/1.1 200 OK
+227: POST http://ocsp.entrust.net/ HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:58 2018
+
+227: Requesting POST http://ocsp.entrust.net/ HTTP/1.1 from ocsp.entrust.net
+227: Received HTTP/1.1 200 OK from ocsp.entrust.net
+227: Responding HTTP/1.1 200 OK
+228: GET http://media.video-cdn.espn.com/motion/2018/0302/dm_180302_NBA_One-Play_Ibaka_dunk_off_miss/chaptertn/dm_180302_NBA_One-Play_Ibaka_dunk_off_miss_1.jpg HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:59 2018
+
+228: not in cache
+228: Requesting GET http://media.video-cdn.espn.com/motion/2018/0302/dm_180302_NBA_One-Play_Ibaka_dunk_off_miss/chaptertn/dm_180302_NBA_One-Play_Ibaka_dunk_off_miss_1.jpg HTTP/1.1 from media.video-cdn.espn.com
+229: GET http://media.video-cdn.espn.com/motion/2018/0302/dm_180302_NBA_One-Play_Ibaka_dunk_off_miss/dm_180302_NBA_One-Play_Ibaka_dunk_off_miss.m3u8 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:59 2018
+
+229: not in cache
+229: Requesting GET http://media.video-cdn.espn.com/motion/2018/0302/dm_180302_NBA_One-Play_Ibaka_dunk_off_miss/dm_180302_NBA_One-Play_Ibaka_dunk_off_miss.m3u8 HTTP/1.1 from media.video-cdn.espn.com
+230: CONNECT mssl.fwmrm.net:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:59 2018
+
+230: Requesting CONNECT mssl.fwmrm.net:443 HTTP/1.1 from mssl.fwmrm.net
+228: Received HTTP/1.1 200 OK from media.video-cdn.espn.com
+228: NOTE empty 'cache-control', consider to be noncacheable
+228: Responding HTTP/1.1 200 OK
+231: CONNECT www.amazon.com:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:59 2018
+
+231: Requesting CONNECT www.amazon.com:443 HTTP/1.1 from www.amazon.com
+229: Received HTTP/1.1 200 OK from media.video-cdn.espn.com
+229: NOTE empty 'cache-control', consider to be noncacheable
+229: Responding HTTP/1.1 200 OK
+232: GET http://media.video-cdn.espn.com/motion/2018/0302/dm_180302_NBA_One-Play_Ibaka_dunk_off_miss/hls/804_5909488_MBR.m3u8 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:59 2018
+
+232: not in cache
+232: Requesting GET http://media.video-cdn.espn.com/motion/2018/0302/dm_180302_NBA_One-Play_Ibaka_dunk_off_miss/hls/804_5909488_MBR.m3u8 HTTP/1.1 from media.video-cdn.espn.com
+232: Received HTTP/1.1 200 OK from media.video-cdn.espn.com
+232: NOTE empty 'cache-control', consider to be noncacheable
+232: Responding HTTP/1.1 200 OK
+233: CONNECT images-na.ssl-images-amazon.com:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:59 2018
+
+233: Requesting CONNECT images-na.ssl-images-amazon.com:443 HTTP/1.1 from images-na.ssl-images-amazon.com
+234: CONNECT images-na.ssl-images-amazon.com:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:59 2018
+
+234: Requesting CONNECT images-na.ssl-images-amazon.com:443 HTTP/1.1 from images-na.ssl-images-amazon.com
+235: CONNECT images-na.ssl-images-amazon.com:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:59 2018
+
+235: Requesting CONNECT images-na.ssl-images-amazon.com:443 HTTP/1.1 from images-na.ssl-images-amazon.com
+236: CONNECT images-na.ssl-images-amazon.com:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:59 2018
+
+236: Requesting CONNECT images-na.ssl-images-amazon.com:443 HTTP/1.1 from images-na.ssl-images-amazon.com
+238: CONNECT images-na.ssl-images-amazon.com:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:59 2018
+
+238: Requesting CONNECT images-na.ssl-images-amazon.com:443 HTTP/1.1 from images-na.ssl-images-amazon.com
+239: CONNECT images-na.ssl-images-amazon.com:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:23:59 2018
+
+239: Requesting CONNECT images-na.ssl-images-amazon.com:443 HTTP/1.1 from images-na.ssl-images-amazon.com
+241: CONNECT images-na.ssl-images-amazon.com:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:00 2018
+
+241: Requesting CONNECT images-na.ssl-images-amazon.com:443 HTTP/1.1 from images-na.ssl-images-amazon.com
+242: CONNECT images-na.ssl-images-amazon.com:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:00 2018
+
+242: Requesting CONNECT images-na.ssl-images-amazon.com:443 HTTP/1.1 from images-na.ssl-images-amazon.com
+243: CONNECT images-na.ssl-images-amazon.com:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:00 2018
+
+243: Requesting CONNECT images-na.ssl-images-amazon.com:443 HTTP/1.1 from images-na.ssl-images-amazon.com
+247: CONNECT images-na.ssl-images-amazon.com:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:00 2018
+
+247: Requesting CONNECT images-na.ssl-images-amazon.com:443 HTTP/1.1 from images-na.ssl-images-amazon.com
+248: CONNECT images-na.ssl-images-amazon.com:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:00 2018
+
+248: Requesting CONNECT images-na.ssl-images-amazon.com:443 HTTP/1.1 from images-na.ssl-images-amazon.com
+249: CONNECT images-na.ssl-images-amazon.com:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:00 2018
+
+249: Requesting CONNECT images-na.ssl-images-amazon.com:443 HTTP/1.1 from images-na.ssl-images-amazon.com
+250: CONNECT 1546a.v.fwmrm.net:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:00 2018
+
+250: Requesting CONNECT 1546a.v.fwmrm.net:443 HTTP/1.1 from 1546a.v.fwmrm.net
+237: CONNECT fls-na.amazon.com:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:00 2018
+
+237: Requesting CONNECT fls-na.amazon.com:443 HTTP/1.1 from fls-na.amazon.com
+244: CONNECT m.media-amazon.com:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:00 2018
+
+244: Requesting CONNECT m.media-amazon.com:443 HTTP/1.1 from m.media-amazon.com
+246: CONNECT m.media-amazon.com:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:00 2018
+
+246: Requesting CONNECT m.media-amazon.com:443 HTTP/1.1 from m.media-amazon.com
+245: CONNECT m.media-amazon.com:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:00 2018
+
+245: Requesting CONNECT m.media-amazon.com:443 HTTP/1.1 from m.media-amazon.com
+252: POST http://ocsp.digicert.com/ HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:00 2018
+
+252: Requesting POST http://ocsp.digicert.com/ HTTP/1.1 from ocsp.digicert.com
+251: POST http://ocsp.digicert.com/ HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:00 2018
+
+251: Requesting POST http://ocsp.digicert.com/ HTTP/1.1 from ocsp.digicert.com
+252: Received HTTP/1.1 200 OK from ocsp.digicert.com
+252: NOTE Etag: "5a990f4a-1d7"
+252: Responding HTTP/1.1 200 OK
+251: Received HTTP/1.1 200 OK from ocsp.digicert.com
+251: NOTE Etag: "5a99b7d9-1d7"
+251: Responding HTTP/1.1 200 OK
+253: GET http://metrics.brightcove.com/v2/tracker?domain=videocloud&platform=video-js&session=10d4ccc1e5474a2170d757e9&account=3948005062001&destination=http%3A%2F%2Fwww.espn.com%2F&platform_version=5.22.2&player=players.brightcove.com%2F3948005062001%2FB1qaqIqkf_default&player_name=Prod%201.8.5%20no%20flashls%20-%20FW%20v2.8.5&source=&event=ad_start&video=22628105&video_name=NBA_One-Play%20(Ibaka%20backs%20up%20miss%20with%20dunk)%202018%2F03%2F02%20ESHEET&video_duration=19&time=1520043841081 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:01 2018
+
+253: not in cache
+253: Requesting GET http://metrics.brightcove.com/v2/tracker?domain=videocloud&platform=video-js&session=10d4ccc1e5474a2170d757e9&account=3948005062001&destination=http%3A%2F%2Fwww.espn.com%2F&platform_version=5.22.2&player=players.brightcove.com%2F3948005062001%2FB1qaqIqkf_default&player_name=Prod%201.8.5%20no%20flashls%20-%20FW%20v2.8.5&source=&event=ad_start&video=22628105&video_name=NBA_One-Play%20(Ibaka%20backs%20up%20miss%20with%20dunk)%202018%2F03%2F02%20ESHEET&video_duration=19&time=1520043841081 HTTP/1.1 from metrics.brightcove.com
+254: CONNECT 1546a.v.fwmrm.net:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:01 2018
+
+254: Requesting CONNECT 1546a.v.fwmrm.net:443 HTTP/1.1 from 1546a.v.fwmrm.net
+253: Received HTTP/1.1 200 OK from metrics.brightcove.com
+253: not cacheable because no-store
+253: cached, but requires re-validation
+253: NOTE Cache-Control: must-revalidate,no-cache,no-store
+253: Responding HTTP/1.1 200 OK
+255: CONNECT 1546a.v.fwmrm.net:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:01 2018
+
+255: Requesting CONNECT 1546a.v.fwmrm.net:443 HTTP/1.1 from 1546a.v.fwmrm.net
+256: CONNECT 1546a.v.fwmrm.net:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:01 2018
+
+256: Requesting CONNECT 1546a.v.fwmrm.net:443 HTTP/1.1 from 1546a.v.fwmrm.net
+257: CONNECT 1546a.v.fwmrm.net:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:01 2018
+
+257: Requesting CONNECT 1546a.v.fwmrm.net:443 HTTP/1.1 from 1546a.v.fwmrm.net
+258: CONNECT 1546a.v.fwmrm.net:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:01 2018
+
+258: Requesting CONNECT 1546a.v.fwmrm.net:443 HTTP/1.1 from 1546a.v.fwmrm.net
+259: GET http://metrics.brightcove.com/v2/tracker?domain=videocloud&platform=video-js&session=10d4ccc1e5474a2170d757e9&account=3948005062001&destination=http%3A%2F%2Fwww.espn.com%2F&platform_version=5.22.2&player=players.brightcove.com%2F3948005062001%2FB1qaqIqkf_default&player_name=Prod%201.8.5%20no%20flashls%20-%20FW%20v2.8.5&source=&event=ad_end&web_ad_info=%7B%22plugin%22%3A%22freewheel%22%2C%22pluginVersion%22%3A%22v2.8.5%22%2C%22adsRequest%22%3A1520043840219%2C%22adsResponseReceived%22%3Anull%2C%22adsLoading%22%3Anull%7D&video=22628105&video_name=NBA_One-Play%20(Ibaka%20backs%20up%20miss%20with%20dunk)%202018%2F03%2F02%20ESHEET&video_duration=19&time=1520043841423 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:01 2018
+
+259: not in cache
+259: Requesting GET http://metrics.brightcove.com/v2/tracker?domain=videocloud&platform=video-js&session=10d4ccc1e5474a2170d757e9&account=3948005062001&destination=http%3A%2F%2Fwww.espn.com%2F&platform_version=5.22.2&player=players.brightcove.com%2F3948005062001%2FB1qaqIqkf_default&player_name=Prod%201.8.5%20no%20flashls%20-%20FW%20v2.8.5&source=&event=ad_end&web_ad_info=%7B%22plugin%22%3A%22freewheel%22%2C%22pluginVersion%22%3A%22v2.8.5%22%2C%22adsRequest%22%3A1520043840219%2C%22adsResponseReceived%22%3Anull%2C%22adsLoading%22%3Anull%7D&video=22628105&video_name=NBA_One-Play%20(Ibaka%20backs%20up%20miss%20with%20dunk)%202018%2F03%2F02%20ESHEET&video_duration=19&time=1520043841423 HTTP/1.1 from metrics.brightcove.com
+259: Received HTTP/1.1 200 OK from metrics.brightcove.com
+259: not cacheable because no-store
+259: cached, but requires re-validation
+259: NOTE Cache-Control: must-revalidate,no-cache,no-store
+259: Responding HTTP/1.1 200 OK
+260: GET http://metrics.brightcove.com/v2/tracker?domain=videocloud&platform=video-js&session=10d4ccc1e5474a2170d757e9&account=3948005062001&destination=http%3A%2F%2Fwww.espn.com%2F&platform_version=5.22.2&player=players.brightcove.com%2F3948005062001%2FB1qaqIqkf_default&player_name=Prod%201.8.5%20no%20flashls%20-%20FW%20v2.8.5&source=&time=1520043841455&event=play_request&video=22628105&video_name=NBA_One-Play%20(Ibaka%20backs%20up%20miss%20with%20dunk)%202018%2F03%2F02%20ESHEET&video_duration=19 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:01 2018
+
+260: not in cache
+260: Requesting GET http://metrics.brightcove.com/v2/tracker?domain=videocloud&platform=video-js&session=10d4ccc1e5474a2170d757e9&account=3948005062001&destination=http%3A%2F%2Fwww.espn.com%2F&platform_version=5.22.2&player=players.brightcove.com%2F3948005062001%2FB1qaqIqkf_default&player_name=Prod%201.8.5%20no%20flashls%20-%20FW%20v2.8.5&source=&time=1520043841455&event=play_request&video=22628105&video_name=NBA_One-Play%20(Ibaka%20backs%20up%20miss%20with%20dunk)%202018%2F03%2F02%20ESHEET&video_duration=19 HTTP/1.1 from metrics.brightcove.com
+260: Received HTTP/1.1 200 OK from metrics.brightcove.com
+260: not cacheable because no-store
+260: cached, but requires re-validation
+260: NOTE Cache-Control: must-revalidate,no-cache,no-store
+260: Responding HTTP/1.1 200 OK
+261: CONNECT m.media-amazon.com:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:02 2018
+
+261: Requesting CONNECT m.media-amazon.com:443 HTTP/1.1 from m.media-amazon.com
+262: CONNECT www.amazon.com:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:02 2018
+
+262: Requesting CONNECT www.amazon.com:443 HTTP/1.1 from www.amazon.com
+264: CONNECT www.facebook.com:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:02 2018
+
+264: Requesting CONNECT www.facebook.com:443 HTTP/1.1 from www.facebook.com
+265: POST http://ocsp.digicert.com/ HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:02 2018
+
+265: Requesting POST http://ocsp.digicert.com/ HTTP/1.1 from ocsp.digicert.com
+265: Received HTTP/1.1 200 OK from ocsp.digicert.com
+265: NOTE Etag: "5a99c84e-1d7"
+265: Responding HTTP/1.1 200 OK
+266: CONNECT static.xx.fbcdn.net:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:03 2018
+
+266: Requesting CONNECT static.xx.fbcdn.net:443 HTTP/1.1 from static.xx.fbcdn.net
+268: CONNECT static.xx.fbcdn.net:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:03 2018
+
+268: Requesting CONNECT static.xx.fbcdn.net:443 HTTP/1.1 from static.xx.fbcdn.net
+267: CONNECT static.xx.fbcdn.net:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:03 2018
+
+267: Requesting CONNECT static.xx.fbcdn.net:443 HTTP/1.1 from static.xx.fbcdn.net
+270: CONNECT static.xx.fbcdn.net:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:03 2018
+
+270: Requesting CONNECT static.xx.fbcdn.net:443 HTTP/1.1 from static.xx.fbcdn.net
+269: CONNECT static.xx.fbcdn.net:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:03 2018
+
+269: Requesting CONNECT static.xx.fbcdn.net:443 HTTP/1.1 from static.xx.fbcdn.net
+271: CONNECT static.xx.fbcdn.net:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:03 2018
+
+271: Requesting CONNECT static.xx.fbcdn.net:443 HTTP/1.1 from static.xx.fbcdn.net
+273: CONNECT facebook.com:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:03 2018
+
+273: Requesting CONNECT facebook.com:443 HTTP/1.1 from facebook.com
+272: CONNECT safebrowsing.googleapis.com:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:03 2018
+
+272: Requesting CONNECT safebrowsing.googleapis.com:443 HTTP/1.1 from safebrowsing.googleapis.com
+275: CONNECT static.xx.fbcdn.net:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:04 2018
+
+275: Requesting CONNECT static.xx.fbcdn.net:443 HTTP/1.1 from static.xx.fbcdn.net
+274: CONNECT static.xx.fbcdn.net:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:04 2018
+
+274: Requesting CONNECT static.xx.fbcdn.net:443 HTTP/1.1 from static.xx.fbcdn.net
+278: CONNECT scontent-iad3-1.xx.fbcdn.net:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:04 2018
+
+278: Requesting CONNECT scontent-iad3-1.xx.fbcdn.net:443 HTTP/1.1 from scontent-iad3-1.xx.fbcdn.net
+279: CONNECT scontent-iad3-1.xx.fbcdn.net:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:04 2018
+
+279: Requesting CONNECT scontent-iad3-1.xx.fbcdn.net:443 HTTP/1.1 from scontent-iad3-1.xx.fbcdn.net
+276: CONNECT static.xx.fbcdn.net:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:04 2018
+
+276: Requesting CONNECT static.xx.fbcdn.net:443 HTTP/1.1 from static.xx.fbcdn.net
+280: CONNECT scontent-iad3-1.xx.fbcdn.net:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:04 2018
+
+280: Requesting CONNECT scontent-iad3-1.xx.fbcdn.net:443 HTTP/1.1 from scontent-iad3-1.xx.fbcdn.net
+277: POST http://clients1.google.com/ocsp HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:04 2018
+
+277: Requesting POST http://clients1.google.com/ocsp HTTP/1.1 from clients1.google.com
+281: CONNECT static.xx.fbcdn.net:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:04 2018
+
+281: Requesting CONNECT static.xx.fbcdn.net:443 HTTP/1.1 from static.xx.fbcdn.net
+277: Received HTTP/1.1 200 OK from clients1.google.com
+277: Responding HTTP/1.1 200 OK
+282: CONNECT www.youtube.com:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:05 2018
+
+282: Requesting CONNECT www.youtube.com:443 HTTP/1.1 from www.youtube.com
+283: GET http://cdn.espn.com/core/index?tab=3&render=true&xhr=1&device=desktop&country=us&lang=en&region=us&site=espn&edition-host=espn.com&one-site=true&site-type=full&userab=0 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:05 2018
+
+283: not in cache
+283: Requesting GET http://cdn.espn.com/core/index?tab=3&render=true&xhr=1&device=desktop&country=us&lang=en&region=us&site=espn&edition-host=espn.com&one-site=true&site-type=full&userab=0 HTTP/1.1 from cdn.espn.com
+283: Received HTTP/1.1 200 OK from cdn.espn.com
+283: cached, but requires re-validation
+283: NOTE Cache-Control: must-revalidate, max-age=36
+283: Responding HTTP/1.1 200 OK
+284: CONNECT s.ytimg.com:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:05 2018
+
+284: Requesting CONNECT s.ytimg.com:443 HTTP/1.1 from s.ytimg.com
+288: CONNECT fbcdn.net:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:05 2018
+
+288: Requesting CONNECT fbcdn.net:443 HTTP/1.1 from fbcdn.net
+287: CONNECT i.ytimg.com:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:05 2018
+
+287: Requesting CONNECT i.ytimg.com:443 HTTP/1.1 from i.ytimg.com
+290: POST http://ocsp.digicert.com/ HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:06 2018
+
+290: Requesting POST http://ocsp.digicert.com/ HTTP/1.1 from ocsp.digicert.com
+290: Received HTTP/1.1 200 OK from ocsp.digicert.com
+290: NOTE Etag: "5a999f41-1d7"
+290: Responding HTTP/1.1 200 OK
+291: CONNECT aax-us-east.amazon-adsystem.com:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:06 2018
+
+291: Requesting CONNECT aax-us-east.amazon-adsystem.com:443 HTTP/1.1 from aax-us-east.amazon-adsystem.com
+292: CONNECT googleads.g.doubleclick.net:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:07 2018
+
+292: Requesting CONNECT googleads.g.doubleclick.net:443 HTTP/1.1 from googleads.g.doubleclick.net
+293: CONNECT s.amazon-adsystem.com:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:07 2018
+
+293: Requesting CONNECT s.amazon-adsystem.com:443 HTTP/1.1 from s.amazon-adsystem.com
+294: CONNECT pubads.g.doubleclick.net:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:07 2018
+
+294: Requesting CONNECT pubads.g.doubleclick.net:443 HTTP/1.1 from pubads.g.doubleclick.net
+295: CONNECT www.google.com:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:07 2018
+
+295: Requesting CONNECT www.google.com:443 HTTP/1.1 from www.google.com
+296: CONNECT staticxx.facebook.com:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:07 2018
+
+296: Requesting CONNECT staticxx.facebook.com:443 HTTP/1.1 from staticxx.facebook.com
+286: CONNECT yt3.ggpht.com:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:08 2018
+
+286: Requesting CONNECT yt3.ggpht.com:443 HTTP/1.1 from yt3.ggpht.com
+299: CONNECT x.bidswitch.net:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:08 2018
+
+299: Requesting CONNECT x.bidswitch.net:443 HTTP/1.1 from x.bidswitch.net
+300: CONNECT ads.yahoo.com:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:08 2018
+
+300: Requesting CONNECT ads.yahoo.com:443 HTTP/1.1 from ads.yahoo.com
+301: CONNECT sync.ipredictive.com:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:08 2018
+
+301: Requesting CONNECT sync.ipredictive.com:443 HTTP/1.1 from sync.ipredictive.com
+302: CONNECT fbsbx.com:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:08 2018
+
+302: Requesting CONNECT fbsbx.com:443 HTTP/1.1 from fbsbx.com
+303: POST http://ocsp.digicert.com/ HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:08 2018
+
+303: Requesting POST http://ocsp.digicert.com/ HTTP/1.1 from ocsp.digicert.com
+304: CONNECT unagi-na.amazon.com:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:08 2018
+
+304: Requesting CONNECT unagi-na.amazon.com:443 HTTP/1.1 from unagi-na.amazon.com
+305: POST http://ocsp.comodoca.com/ HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:08 2018
+
+305: Requesting POST http://ocsp.comodoca.com/ HTTP/1.1 from ocsp.comodoca.com
+303: Received HTTP/1.1 200 OK from ocsp.digicert.com
+303: NOTE Etag: "5a99dc34-1d7"
+303: Responding HTTP/1.1 200 OK
+305: Received HTTP/1.1 200 OK from ocsp.comodoca.com
+305: Responding HTTP/1.1 200 OK
+307: CONNECT securepubads.g.doubleclick.net:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:08 2018
+
+306: CONNECT ad.doubleclick.net:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:08 2018
+
+306: Requesting CONNECT ad.doubleclick.net:443 HTTP/1.1 from ad.doubleclick.net
+307: Requesting CONNECT securepubads.g.doubleclick.net:443 HTTP/1.1 from securepubads.g.doubleclick.net
+308: CONNECT connect.facebook.net:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:08 2018
+
+308: Requesting CONNECT connect.facebook.net:443 HTTP/1.1 from connect.facebook.net
+309: CONNECT completion.amazon.com:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:09 2018
+
+309: Requesting CONNECT completion.amazon.com:443 HTTP/1.1 from completion.amazon.com
+310: POST http://ss.symcd.com/ HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:10 2018
+
+310: Requesting POST http://ss.symcd.com/ HTTP/1.1 from ss.symcd.com
+310: Received HTTP/1.1 200 OK from ss.symcd.com
+310: Responding HTTP/1.1 200 OK
+312: CONNECT static.doubleclick.net:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:10 2018
+
+312: Requesting CONNECT static.doubleclick.net:443 HTTP/1.1 from static.doubleclick.net
+313: GET http://media.video-cdn.espn.com/motion/2018/0302/dm_180302_NBA_One-Play_Ibaka_dunk_off_miss/hls/804_5909488_MBR_00001.ts HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:11 2018
+
+313: not in cache
+313: Requesting GET http://media.video-cdn.espn.com/motion/2018/0302/dm_180302_NBA_One-Play_Ibaka_dunk_off_miss/hls/804_5909488_MBR_00001.ts HTTP/1.1 from media.video-cdn.espn.com
+313: Received HTTP/1.1 200 OK from media.video-cdn.espn.com
+313: NOTE empty 'cache-control', consider to be noncacheable
+313: Responding HTTP/1.1 200 OK
+314: CONNECT ssl.gstatic.com:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:12 2018
+
+314: Requesting CONNECT ssl.gstatic.com:443 HTTP/1.1 from ssl.gstatic.com
+315: CONNECT r3---sn-hjoj-gq0e.googlevideo.com:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:12 2018
+
+315: Requesting CONNECT r3---sn-hjoj-gq0e.googlevideo.com:443 HTTP/1.1 from r3---sn-hjoj-gq0e.googlevideo.com
+316: CONNECT r3---sn-hjoj-gq0e.googlevideo.com:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:12 2018
+
+316: Requesting CONNECT r3---sn-hjoj-gq0e.googlevideo.com:443 HTTP/1.1 from r3---sn-hjoj-gq0e.googlevideo.com
+317: CONNECT www.gstatic.com:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:12 2018
+
+317: Requesting CONNECT www.gstatic.com:443 HTTP/1.1 from www.gstatic.com
+318: GET http://fastcast.espn.com/public/rotationip HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:13 2018
+
+318: not in cache
+318: Requesting GET http://fastcast.espn.com/public/rotationip HTTP/1.1 from fastcast.espn.com
+319: CONNECT apis.google.com:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:13 2018
+
+319: Requesting CONNECT apis.google.com:443 HTTP/1.1 from apis.google.com
+318: Received HTTP/1.1 200 OK from fastcast.espn.com
+318: NOTE empty 'cache-control', consider to be noncacheable
+318: Responding HTTP/1.1 200 OK
+320: CONNECT 54.152.94.145:9571 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:13 2018
+
+320: Requesting CONNECT 54.152.94.145:9571 HTTP/1.1 from 54.152.94.145
+321: POST http://ocsp.pki.goog/GTSGIAG3 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:13 2018
+
+321: Requesting POST http://ocsp.pki.goog/GTSGIAG3 HTTP/1.1 from ocsp.pki.goog
+321: Received HTTP/1.1 200 OK from ocsp.pki.goog
+321: Responding HTTP/1.1 200 OK
+322: GET http://fcast.us-east-1.espncdn.com/FastcastService/pubsub/profiles/12000/topic/event-topevents/message/5340935/checkpoint HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:13 2018
+
+322: not in cache
+322: Requesting GET http://fcast.us-east-1.espncdn.com/FastcastService/pubsub/profiles/12000/topic/event-topevents/message/5340935/checkpoint HTTP/1.1 from fcast.us-east-1.espncdn.com
+322: Received HTTP/1.1 200 OK from fcast.us-east-1.espncdn.com
+322: cached, expires at Sat, 03 Mar 2018 14:23:42 GMT
+322: NOTE Cache-Control: max-age=43169
+322: Responding HTTP/1.1 200 OK
+323: CONNECT adservice.google.com:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:13 2018
+
+323: Requesting CONNECT adservice.google.com:443 HTTP/1.1 from adservice.google.com
+324: CONNECT cws.conviva.com:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:14 2018
+
+324: Requesting CONNECT cws.conviva.com:443 HTTP/1.1 from cws.conviva.com
+325: GET http://fcast.us-east-1.espncdn.com/FastcastService/pubsub/profiles/12000/topic/scores-espn-en-frontpage-index-en-us/message/615082/checkpoint HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:14 2018
+
+325: not in cache
+325: Requesting GET http://fcast.us-east-1.espncdn.com/FastcastService/pubsub/profiles/12000/topic/scores-espn-en-frontpage-index-en-us/message/615082/checkpoint HTTP/1.1 from fcast.us-east-1.espncdn.com
+325: Received HTTP/1.1 200 OK from fcast.us-east-1.espncdn.com
+325: cached, expires at Sat, 03 Mar 2018 14:23:25 GMT
+325: NOTE Cache-Control: max-age=43151
+325: Responding HTTP/1.1 200 OK
+326: GET http://news.baidu.com/ HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:14 2018
+
+326: not in cache
+326: Requesting GET http://news.baidu.com/ HTTP/1.1 from news.baidu.com
+327: POST http://ocsp.comodoca.com/ HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:14 2018
+
+327: Requesting POST http://ocsp.comodoca.com/ HTTP/1.1 from ocsp.comodoca.com
+327: Received HTTP/1.1 200 OK from ocsp.comodoca.com
+327: Responding HTTP/1.1 200 OK
+328: GET http://metrics.brightcove.com/v2/tracker?domain=videocloud&platform=video-js&session=10d4ccc1e5474a2170d757e9&account=3948005062001&destination=http%3A%2F%2Fwww.espn.com%2F&platform_version=5.22.2&player=players.brightcove.com%2F3948005062001%2FB1qaqIqkf_default&player_name=Prod%201.8.5%20no%20flashls%20-%20FW%20v2.8.5&source=&time=1520043841454&event=video_impression&web_ad_info=%7B%22plugin%22%3A%22freewheel%22%2C%22pluginVersion%22%3A%22v2.8.5%22%7D&video=22628105&video_name=NBA_One-Play%20(Ibaka%20backs%20up%20miss%20with%20dunk)%202018%2F03%2F02%20ESHEET&video_duration=19&autoplay=true&preload=none HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:15 2018
+
+328: not in cache
+328: Requesting GET http://metrics.brightcove.com/v2/tracker?domain=videocloud&platform=video-js&session=10d4ccc1e5474a2170d757e9&account=3948005062001&destination=http%3A%2F%2Fwww.espn.com%2F&platform_version=5.22.2&player=players.brightcove.com%2F3948005062001%2FB1qaqIqkf_default&player_name=Prod%201.8.5%20no%20flashls%20-%20FW%20v2.8.5&source=&time=1520043841454&event=video_impression&web_ad_info=%7B%22plugin%22%3A%22freewheel%22%2C%22pluginVersion%22%3A%22v2.8.5%22%7D&video=22628105&video_name=NBA_One-Play%20(Ibaka%20backs%20up%20miss%20with%20dunk)%202018%2F03%2F02%20ESHEET&video_duration=19&autoplay=true&preload=none HTTP/1.1 from metrics.brightcove.com
+328: Received HTTP/1.1 200 OK from metrics.brightcove.com
+328: not cacheable because no-store
+328: cached, but requires re-validation
+328: NOTE Cache-Control: must-revalidate,no-cache,no-store
+328: Responding HTTP/1.1 200 OK
+329: GET http://media.video-cdn.espn.com/motion/2018/0302/dm_180302_NBA_One-Play_Ibaka_dunk_off_miss/hls/804_5909488_MBR_00002.ts HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:16 2018
+
+329: not in cache
+329: Requesting GET http://media.video-cdn.espn.com/motion/2018/0302/dm_180302_NBA_One-Play_Ibaka_dunk_off_miss/hls/804_5909488_MBR_00002.ts HTTP/1.1 from media.video-cdn.espn.com
+326: Received  
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          from news.baidu.com
+326: Responding  
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+329: Received HTTP/1.1 200 OK from media.video-cdn.espn.com
+329: NOTE empty 'cache-control', consider to be noncacheable
+329: Responding HTTP/1.1 200 OK
+330: GET http://media.video-cdn.espn.com/motion/2018/0302/dm_180302_NBA_One-Play_Ibaka_dunk_off_miss/hls/804_5909488_MBR2.m3u8 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:17 2018
+
+330: not in cache
+330: Requesting GET http://media.video-cdn.espn.com/motion/2018/0302/dm_180302_NBA_One-Play_Ibaka_dunk_off_miss/hls/804_5909488_MBR2.m3u8 HTTP/1.1 from media.video-cdn.espn.com
+330: Received HTTP/1.1 200 OK from media.video-cdn.espn.com
+330: NOTE empty 'cache-control', consider to be noncacheable
+330: Responding HTTP/1.1 200 OK
+331: GET http://media.video-cdn.espn.com/motion/2018/0302/dm_180302_NBA_One-Play_Ibaka_dunk_off_miss/hls/804_5909488_MBR2_00003.ts HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:21 2018
+
+331: not in cache
+331: Requesting GET http://media.video-cdn.espn.com/motion/2018/0302/dm_180302_NBA_One-Play_Ibaka_dunk_off_miss/hls/804_5909488_MBR2_00003.ts HTTP/1.1 from media.video-cdn.espn.com
+331: Received HTTP/1.1 200 OK from media.video-cdn.espn.com
+331: NOTE empty 'cache-control', consider to be noncacheable
+331: Responding HTTP/1.1 200 OK
+332: GET http://w88.espn.com/id?d_visid_ver=1.5.6&callback=s_c_il%5B0%5D._setAnalyticsFields&mcorgid=EE0201AC512D2BE80A490D4C%40AdobeOrg&mid=92223990326587027225120289462926443674 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:22 2018
+
+332: not in cache
+332: Requesting GET http://w88.espn.com/id?d_visid_ver=1.5.6&callback=s_c_il%5B0%5D._setAnalyticsFields&mcorgid=EE0201AC512D2BE80A490D4C%40AdobeOrg&mid=92223990326587027225120289462926443674 HTTP/1.1 from w88.espn.com
+332: Received HTTP/1.1 200 OK from w88.espn.com
+332: not cacheable because no-store
+332: cached, expires at Fri, 02 Mar 2018 02:24:22 GMT
+332: cached, but requires re-validation
+332: NOTE Cache-Control: no-cache, no-store, max-age=0, no-transform, private
+332: Responding HTTP/1.1 200 OK
+333: CONNECT pixel.facebook.com:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:24 2018
+
+333: Requesting CONNECT pixel.facebook.com:443 HTTP/1.1 from pixel.facebook.com
+334: GET http://media.video-cdn.espn.com/motion/2018/0302/dm_180302_NBA_One-Play_Ibaka_dunk_off_miss/hls/804_5909488_MBR2_00004.ts HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:24 2018
+
+334: not in cache
+334: Requesting GET http://media.video-cdn.espn.com/motion/2018/0302/dm_180302_NBA_One-Play_Ibaka_dunk_off_miss/hls/804_5909488_MBR2_00004.ts HTTP/1.1 from media.video-cdn.espn.com
+334: Received HTTP/1.1 200 OK from media.video-cdn.espn.com
+334: NOTE empty 'cache-control', consider to be noncacheable
+334: Responding HTTP/1.1 200 OK
+335: CONNECT aax-us-east.amazon-adsystem.com:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:25 2018
+
+335: Requesting CONNECT aax-us-east.amazon-adsystem.com:443 HTTP/1.1 from aax-us-east.amazon-adsystem.com
+336: CONNECT aax-us-east.amazon-adsystem.com:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:25 2018
+
+336: Requesting CONNECT aax-us-east.amazon-adsystem.com:443 HTTP/1.1 from aax-us-east.amazon-adsystem.com
+337: CONNECT tiles.services.mozilla.com:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:26 2018
+
+337: Requesting CONNECT tiles.services.mozilla.com:443 HTTP/1.1 from tiles.services.mozilla.com
+338: CONNECT magazine.atavist.com:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:26 2018
+
+338: Requesting CONNECT magazine.atavist.com:443 HTTP/1.1 from magazine.atavist.com
+339: POST http://gv.symcd.com/ HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:26 2018
+
+339: Requesting POST http://gv.symcd.com/ HTTP/1.1 from gv.symcd.com
+339: Received HTTP/1.1 200 OK from gv.symcd.com
+339: Responding HTTP/1.1 200 OK
+340: CONNECT magazine.atavist.com:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:26 2018
+
+340: Requesting CONNECT magazine.atavist.com:443 HTTP/1.1 from magazine.atavist.com
+341: CONNECT fonts.googleapis.com:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:26 2018
+
+341: Requesting CONNECT fonts.googleapis.com:443 HTTP/1.1 from fonts.googleapis.com
+343: CONNECT r5---sn-5hnednlr.googlevideo.com:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:27 2018
+
+343: Requesting CONNECT r5---sn-5hnednlr.googlevideo.com:443 HTTP/1.1 from r5---sn-5hnednlr.googlevideo.com
+344: CONNECT dh1rvgpokacch.cloudfront.net:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:27 2018
+
+344: Requesting CONNECT dh1rvgpokacch.cloudfront.net:443 HTTP/1.1 from dh1rvgpokacch.cloudfront.net
+345: CONNECT dh1rvgpokacch.cloudfront.net:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:27 2018
+
+345: Requesting CONNECT dh1rvgpokacch.cloudfront.net:443 HTTP/1.1 from dh1rvgpokacch.cloudfront.net
+347: CONNECT fonts.gstatic.com:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:27 2018
+
+347: Requesting CONNECT fonts.gstatic.com:443 HTTP/1.1 from fonts.gstatic.com
+346: CONNECT dh1rvgpokacch.cloudfront.net:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:27 2018
+
+346: Requesting CONNECT dh1rvgpokacch.cloudfront.net:443 HTTP/1.1 from dh1rvgpokacch.cloudfront.net
+348: CONNECT dh1rvgpokacch.cloudfront.net:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:27 2018
+
+348: Requesting CONNECT dh1rvgpokacch.cloudfront.net:443 HTTP/1.1 from dh1rvgpokacch.cloudfront.net
+349: CONNECT dh1rvgpokacch.cloudfront.net:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:27 2018
+
+349: Requesting CONNECT dh1rvgpokacch.cloudfront.net:443 HTTP/1.1 from dh1rvgpokacch.cloudfront.net
+350: CONNECT dh1rvgpokacch.cloudfront.net:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:27 2018
+
+350: Requesting CONNECT dh1rvgpokacch.cloudfront.net:443 HTTP/1.1 from dh1rvgpokacch.cloudfront.net
+351: CONNECT dilhmgn2fk8rc.cloudfront.net:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:27 2018
+
+351: Requesting CONNECT dilhmgn2fk8rc.cloudfront.net:443 HTTP/1.1 from dilhmgn2fk8rc.cloudfront.net
+352: CONNECT dilhmgn2fk8rc.cloudfront.net:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:27 2018
+
+352: Requesting CONNECT dilhmgn2fk8rc.cloudfront.net:443 HTTP/1.1 from dilhmgn2fk8rc.cloudfront.net
+353: POST http://clients1.google.com/ocsp HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:27 2018
+
+353: Requesting POST http://clients1.google.com/ocsp HTTP/1.1 from clients1.google.com
+353: Received HTTP/1.1 200 OK from clients1.google.com
+353: Responding HTTP/1.1 200 OK
+354: CONNECT m.media-amazon.com:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:28 2018
+
+354: Requesting CONNECT m.media-amazon.com:443 HTTP/1.1 from m.media-amazon.com
+355: CONNECT m.media-amazon.com:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:28 2018
+
+355: Requesting CONNECT m.media-amazon.com:443 HTTP/1.1 from m.media-amazon.com
+356: CONNECT m.media-amazon.com:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:28 2018
+
+356: Requesting CONNECT m.media-amazon.com:443 HTTP/1.1 from m.media-amazon.com
+342: CONNECT magazine.atavist.com:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:29 2018
+
+342: Requesting CONNECT magazine.atavist.com:443 HTTP/1.1 from magazine.atavist.com
+358: CONNECT cdnjs.cloudflare.com:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:29 2018
+
+358: Requesting CONNECT cdnjs.cloudflare.com:443 HTTP/1.1 from cdnjs.cloudflare.com
+359: CONNECT atavist.com:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:29 2018
+
+359: Requesting CONNECT atavist.com:443 HTTP/1.1 from atavist.com
+360: CONNECT atavist.com:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:29 2018
+
+360: Requesting CONNECT atavist.com:443 HTTP/1.1 from atavist.com
+363: CONNECT atavist.com:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:29 2018
+
+363: Requesting CONNECT atavist.com:443 HTTP/1.1 from atavist.com
+364: CONNECT atavist.com:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:29 2018
+
+364: Requesting CONNECT atavist.com:443 HTTP/1.1 from atavist.com
+361: CONNECT atavist.com:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:29 2018
+
+361: Requesting CONNECT atavist.com:443 HTTP/1.1 from atavist.com
+362: CONNECT atavist.com:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:29 2018
+
+362: Requesting CONNECT atavist.com:443 HTTP/1.1 from atavist.com
+366: CONNECT magazine.atavist.com:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:30 2018
+
+366: Requesting CONNECT magazine.atavist.com:443 HTTP/1.1 from magazine.atavist.com
+365: CONNECT js.stripe.com:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:30 2018
+
+365: Requesting CONNECT js.stripe.com:443 HTTP/1.1 from js.stripe.com
+367: POST http://ocsp.digicert.com/ HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:30 2018
+
+367: Requesting POST http://ocsp.digicert.com/ HTTP/1.1 from ocsp.digicert.com
+367: Received HTTP/1.1 200 OK from ocsp.digicert.com
+367: NOTE Etag: "5a99f3b0-1d7"
+367: Responding HTTP/1.1 200 OK
+368: CONNECT m.stripe.network:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:31 2018
+
+368: Requesting CONNECT m.stripe.network:443 HTTP/1.1 from m.stripe.network
+369: CONNECT m.stripe.com:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:34 2018
+
+369: Requesting CONNECT m.stripe.com:443 HTTP/1.1 from m.stripe.com
+370: POST http://ocsp.digicert.com/ HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:34 2018
+
+370: Requesting POST http://ocsp.digicert.com/ HTTP/1.1 from ocsp.digicert.com
+370: Received HTTP/1.1 200 OK from ocsp.digicert.com
+370: NOTE Etag: "5a99b1fb-1d7"
+370: Responding HTTP/1.1 200 OK
+371: CONNECT www.wikipedia.org:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:35 2018
+
+371: Requesting CONNECT www.wikipedia.org:443 HTTP/1.1 from www.wikipedia.org
+372: CONNECT stripensrq.global.ssl.fastly.net:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:35 2018
+
+372: Requesting CONNECT stripensrq.global.ssl.fastly.net:443 HTTP/1.1 from stripensrq.global.ssl.fastly.net
+373: CONNECT stripensrq.global.ssl.fastly.net:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:35 2018
+
+373: Requesting CONNECT stripensrq.global.ssl.fastly.net:443 HTTP/1.1 from stripensrq.global.ssl.fastly.net
+374: CONNECT completion.amazon.com:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:44 2018
+
+374: Requesting CONNECT completion.amazon.com:443 HTTP/1.1 from completion.amazon.com
+375: CONNECT www.amazon.com:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:44 2018
+
+375: Requesting CONNECT www.amazon.com:443 HTTP/1.1 from www.amazon.com
+376: CONNECT www.amazon.com:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:44 2018
+
+376: Requesting CONNECT www.amazon.com:443 HTTP/1.1 from www.amazon.com
+377: CONNECT www.amazon.com:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:44 2018
+
+377: Requesting CONNECT www.amazon.com:443 HTTP/1.1 from www.amazon.com
+378: CONNECT aax-us-east.amazon-adsystem.com:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:44 2018
+
+378: Requesting CONNECT aax-us-east.amazon-adsystem.com:443 HTTP/1.1 from aax-us-east.amazon-adsystem.com
+379: CONNECT ams-ads-cornerstone-creatives.s3.amazonaws.com:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:45 2018
+
+379: Requesting CONNECT ams-ads-cornerstone-creatives.s3.amazonaws.com:443 HTTP/1.1 from ams-ads-cornerstone-creatives.s3.amazonaws.com
+380: CONNECT aax-us-east.amazon-adsystem.com:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:45 2018
+
+380: Requesting CONNECT aax-us-east.amazon-adsystem.com:443 HTTP/1.1 from aax-us-east.amazon-adsystem.com
+381: CONNECT images-na.ssl-images-amazon.com:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:45 2018
+
+381: Requesting CONNECT images-na.ssl-images-amazon.com:443 HTTP/1.1 from images-na.ssl-images-amazon.com
+382: POST http://ocsp.digicert.com/ HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:45 2018
+
+382: Requesting POST http://ocsp.digicert.com/ HTTP/1.1 from ocsp.digicert.com
+382: Received HTTP/1.1 200 OK from ocsp.digicert.com
+382: NOTE Etag: "5a99c12f-1d7"
+382: Responding HTTP/1.1 200 OK
+383: CONNECT cdn-d.amazon-adsystem.com:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:47 2018
+
+383: Requesting CONNECT cdn-d.amazon-adsystem.com:443 HTTP/1.1 from cdn-d.amazon-adsystem.com
+385: CONNECT m.media-amazon.com:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:48 2018
+
+385: Requesting CONNECT m.media-amazon.com:443 HTTP/1.1 from m.media-amazon.com
+384: CONNECT aax-us-east.amazon-adsystem.com:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:50 2018
+
+384: Requesting CONNECT aax-us-east.amazon-adsystem.com:443 HTTP/1.1 from aax-us-east.amazon-adsystem.com
+387: CONNECT m.media-amazon.com:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:52 2018
+
+387: Requesting CONNECT m.media-amazon.com:443 HTTP/1.1 from m.media-amazon.com
+390: CONNECT d2tz3plrpnfrv0.cloudfront.net:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:53 2018
+
+390: Requesting CONNECT d2tz3plrpnfrv0.cloudfront.net:443 HTTP/1.1 from d2tz3plrpnfrv0.cloudfront.net
+388: CONNECT aax-us-east.amazon-adsystem.com:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:53 2018
+
+388: Requesting CONNECT aax-us-east.amazon-adsystem.com:443 HTTP/1.1 from aax-us-east.amazon-adsystem.com
+391: CONNECT avodassets-a.akamaihd.net:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:53 2018
+
+391: Requesting CONNECT avodassets-a.akamaihd.net:443 HTTP/1.1 from avodassets-a.akamaihd.net
+392: CONNECT completion.amazon.com:443 HTTP/1.1 from 71.70.230.19 @ Sat Mar  3 02:24:55 2018
+
+392: Requesting CONNECT completion.amazon.com:443 HTTP/1.1 from completion.amazon.com
